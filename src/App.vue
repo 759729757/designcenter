@@ -1,96 +1,95 @@
-<template>
-  <div id="app">
-    <router-view/>
-  </div>
-</template>
+/**
+ * Copyright (c) 2013-present, Facebook, Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
 
-<script>
-export default {
-  name: 'App'
-}
-</script>
+type TextEncodeOptions = {options?: boolean};
 
-<style>
-  body{
-    margin: 0;padding: 0;
-  }
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+declare class TextEncoder {
+  encode(buffer: string, options?: TextEncodeOptions): Uint8Array,
 }
-  a {
-    color: rgb(46, 46, 46);
-    text-decoration: none;
-  }
-  .container{
-    width: 1100px;margin: auto;
-  }
-  ul{margin-left: 0;padding-left: 0;}
-  li {
-    list-style: none;
-  }
-  .mode1{
-    overflow: hidden;
-    margin: 36px auto 0;
-  }
-  .mode02 {
-     overflow: hidden;
-     margin: 36px auto 0;
-   }
-  .sm_con p {
-    margin: 10px 0 0 0;
-    text-align: right;
-  }
-  .sm_con a {
-    color: #fbd99c;
-  }
-  .section-title{
-    color: #004a9d;
-  }
-  .more{cursor: pointer;}
-.pull-right{
-  float: right;
-}
-  .content-warp{position: relative;}
-  .container-sm{width: 800px;margin: auto;}
-.section-warp{padding: 30px 50px;box-sizing: border-box;}
-.row{
-  overflow: hidden;zoom: 1;position: relative;
-}
-.row:after{
-  content: " ";clear: both;
-}
-  .col-4{
-    width: 40%;  float: left;
-  }
-  .col-5{width: 50%;float: left;}
-  .col-3{width: 30%;float: left;}
-  .col-7{width: 70%;float: left;}
-  .col-6{
-    float: left;
-    width: 60%;
-  }
-  .bg-gray{background: #eee;}
-  .text-gray{color: #333;}
-.flex{display: flex;flex-direction: row;align-items: stretch;justify-content: space-around;}
-.flex-col{display: flex;flex-direction: column;justify-content: space-between;}
-.flex-center{align-items: center;justify-content: center;}
-.flex-start{justify-content: start;}
-.flex-end{justify-content: end;}
 
-.mb-only{display: none;}
-  @media (max-width: 1100px) {
-  .container{width: 90%;margin: 0 5%;}
-  }
+declare class ReadableStreamController {
+  constructor(
+    stream: ReadableStream,
+    underlyingSource: UnderlyingSource,
+    size: number,
+    highWaterMark: number,
+  ): void,
 
-  @media (max-width: 414px) {
-    .pc-only {
-      display: none;
-    }
-    .mb-only{
-      display: block;
-    }
-  }
+  desiredSize: number,
 
-</style>
+  close(): void,
+  enqueue(chunk: any): void,
+  error(error: Error): void,
+}
+
+declare class ReadableStreamBYOBRequest {
+  constructor(controller: ReadableStreamController, view: $TypedArray): void,
+
+  view: $TypedArray,
+
+  respond(bytesWritten: number): ?any,
+  respondWithNewView(view: $TypedArray): ?any,
+}
+
+declare class ReadableByteStreamController extends ReadableStreamController {
+  constructor(
+    stream: ReadableStream,
+    underlyingSource: UnderlyingSource,
+    highWaterMark: number,
+  ): void,
+
+  byobRequest: ReadableStreamBYOBRequest,
+}
+
+declare class ReadableStreamReader {
+  constructor(stream: ReadableStream): void,
+
+  closed: boolean,
+
+  cancel(reason: string): void,
+  read(): Promise<{value: ?any, done: boolean}>,
+  releaseLock(): void,
+}
+
+declare interface UnderlyingSource {
+  autoAllocateChunkSize?: number,
+  type?: string,
+
+  start?: (controller: ReadableStreamController) => ?Promise<void>,
+  pull?: (controller: ReadableStreamController) => ?Promise<void>,
+  cancel?: (reason: string) => ?Promise<void>,
+}
+
+declare class TransformStream {
+  readable: ReadableStream,
+  writable: WritableStream,
+};
+
+type PipeToOptions = {
+ : boolean,
+  preventAbort?: boolean,
+  preventCancel?: boolean,
+};
+
+type QueuingStrategy  = {
+  highWaterMark: number,
+
+  size(chunk: ?any): number,
+};
+
+declare class ReadableStream {
+  constructor(
+    underlyingSource: ?UnderlyingSource,
+    queuingStrategy: ?QueuingStrategy,
+  ): void,
+
+  locked: boolean,
+
+  cancel(reason: string): void,
+  getReader(): ReadableStreamReader,
+  pipeThrough(transform: TransformStream, options: ?any): void,
+  pipe

@@ -3,7 +3,7 @@
      <div class="container ">
        <div class="logo">
          <a href="index.html">
-           <img src="../assets/logo.png">
+           <img src="../assets/logo.svg" width="250">
          </a>
        </div>
      </div>
@@ -21,10 +21,9 @@
   width: 100%;
   background-position: center;
   background-color: #004a9d;
-  /*background-image: url("https://ai.bnu.edu.cn/images/gaiban/top_bg_01.png");*/
 }
   .header .container{
-    height: 110px;padding: 20px;box-sizing: border-box;
+    height: 137px;padding: 20px;box-sizing: border-box;
   }
   @media (max-width: 769px) {
     .logo{
@@ -38,10 +37,10 @@
   }
   .header .container{
     height: 90px;
-    padding: 4%;
+    padding: 15px 0;
   }
   .header .container img{
-    width: 65%;
+    width: 150px;position: relative;z-index: 999;
   }
 
 }

@@ -6,43 +6,59 @@
           <router-link :class="$route.path==='/' ? 'active' : ''" to="/">首页</router-link>
         </li>
         <li>
-          <router-link to="/about">中心介绍</router-link>
- 
-        </li>
-        <li>
-          <router-link :class="$route.path==='/leader' ? 'active' : ''" to="/leader">现任领导</router-link>
-        </li>
-        <li>
-          <router-link :class="$route.path==='/weiyuan' ? 'active' : ''"  to="/weiyuan">学术委员会</router-link>
-        </li>
-        <li>
-          <router-link :class="$route.path==='/yanjiu' ? 'active' : ''" to="/yanjiu">研究方向</router-link>
-     
-        </li>
-        <li>
-          <router-link to="/news">新闻动态</router-link>
-          
-        </li>
-        <li>
-          <router-link to="/news">招生信息</router-link>
-      
+          <router-link :class="$route.path.indexOf('/about')>-1 ? 'active' : ''" to="/about">中心介绍</router-link>
+          <div class="subNav">
+            <dl>
+              <dd>
+                <router-link to="/about">中心简介</router-link>
+              </dd>
+              <dd>
+                <router-link to="/about2">发展规划</router-link>
+              </dd>
+              <dd>
+                <router-link to="/about3">现任领导</router-link>
+              </dd>
+              <dd>
+                <router-link to="/about4">联系我们</router-link>
+              </dd>
+            </dl>
+          </div>
         </li>
 <!--        <li>-->
-<!--          <router-link to="/news">合作</router-link>-->
-<!--          <div class="subNav">-->
-<!--            <dl>-->
-<!--              <dd>-->
-<!--                <router-link to="/news">国际</router-link>-->
-<!--              </dd>-->
-<!--              <dd>-->
-<!--                <router-link to="/news">国内</router-link>-->
-<!--              </dd>-->
-<!--              <dd>-->
-<!--                <router-link to="/news">校企</router-link>-->
-<!--              </dd>-->
-<!--            </dl>-->
-<!--          </div>-->
+<!--          <router-link :class="$route.path==='/leader' ? 'active' : ''" to="/leader">现任领导</router-link>-->
 <!--        </li>-->
+        <li>
+          <router-link :class="$route.path.indexOf('/weiyuan')>-1 ? 'active' : ''"  to="/weiyuan">学术委员会</router-link>
+        </li>
+        <li>
+          <router-link :class="$route.path.indexOf('/yanjiu')>-1 ? 'active' : ''" to="/yanjiu">研究方向</router-link>
+          <div class="subNav">
+            <dl>
+              <dd>
+                <router-link to="/yanjiu1">未来生活方式</router-link>
+              </dd>
+              <dd>
+                <router-link to="/yanjiu2">艺术与科技</router-link>
+              </dd>
+              <dd>
+                <router-link to="/yanjiu3">未来设计教育</router-link>
+              </dd>
+            </dl>
+          </div>
+        </li>
+        <li>
+          <router-link :class="$route.path.indexOf('teacher')>-1 ? 'active' : ''"  to="/teachers">师资力量</router-link>
+        </li>
+        <li>
+          <router-link :class="$route.path.indexOf('/news')>-1 ? 'active' : ''" to="/news">新闻动态</router-link>
+        </li>
+        <li>
+          <router-link :class="$route.path.indexOf('/zhaosheng')>-1 ? 'active' : ''" to="/zhaosheng">招生信息</router-link>
+        </li>
+        <li>
+          <a onclick="alert('网站正在建设中')">种子基金</a>
+
+        </li>
 <!--        <li>-->
 <!--          <router-link to="server"><a>招聘</a></router-link>-->
 <!--        </li>-->
@@ -79,9 +95,9 @@
         }
         //固定 tab
         if (top > 440) {
-          document.getElementById('tab') && document.getElementById('tab').classList.add('fixed')
+          document.getElementsByClassName('tab') && document.getElementsByClassName('tab')[0].classList.add('fixed')
         } else {
-          document.getElementById('tab') && document.getElementById('tab').classList.remove('fixed')
+          document.getElementsByClassName('tab') && document.getElementsByClassName('tab')[0].classList.remove('fixed')
         }
 
       },
@@ -95,7 +111,6 @@
       }
     },
     mounted() {
-      console.log(this.$route)
       this.$nextTick(() => {
         this.handleScoll();
         addEventListener('scroll', this.handleScoll);
@@ -190,7 +205,7 @@
       float: left;
     }
     .nav ul li {
-      padding: 0 20px;
+      padding: 0 10px;
     }
   }
 

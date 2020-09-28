@@ -7,6 +7,12 @@ import $ from 'jquery'
 
 Vue.config.productionTip = false
 
+router.afterEach((to, from, next) => {
+  //每次跳转后将滚动条置顶
+  window.scrollTo(0,0);
+
+})
+
 /* eslint-disable no-new */
 new Vue({
   el: '#app',

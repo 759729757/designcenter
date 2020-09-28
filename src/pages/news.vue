@@ -11,59 +11,14 @@
           <img class="news-img" src="../assets/newsBanner.jpg" alt="">
           <div class="flex section-warp flex-col">
             <div>
-              <h3 class="news-title">未来设计创新研究中心学术委员会首次会议召开</h3>
-              The Fist FDC Academic Board Meeting Held
+              <h3 class="news-title">未来设计中心FDC主任高鹏谈艺术教育梦</h3>
+<!--              The Fist FDC Academic Board Meeting Held-->
             </div>
             <div class="text-gray">
               <span class="title-en">
-                8th, September, 2020
+                9th, September, 2020
               </span>
-              <span class="more">> 详情</span>
-            </div>
-          </div>
-        </div>
-        <div class="news-warp flex flex-start bg-gray">
-          <img class="news-img" src="../assets/newsBanner.jpg" alt="">
-          <div class="flex section-warp flex-col">
-            <div>
-              <h3 class="news-title">未来设计创新研究中心学术委员会首次会议召开</h3>
-              The Fist FDC Academic Board Meeting Held
-            </div>
-            <div class="text-gray">
-              <span class="title-en">
-                8th, September, 2020
-              </span>
-              <span class="more">> 详情</span>
-            </div>
-          </div>
-        </div>
-        <div class="news-warp flex flex-start bg-gray">
-          <img class="news-img" src="../assets/newsBanner.jpg" alt="">
-          <div class="flex section-warp flex-col">
-            <div>
-              <h3 class="news-title">未来设计创新研究中心学术委员会首次会议召开</h3>
-              The Fist FDC Academic Board Meeting Held
-            </div>
-            <div class="text-gray">
-              <span class="title-en">
-                8th, September, 2020
-              </span>
-              <span class="more">> 详情</span>
-            </div>
-          </div>
-        </div>
-        <div class="news-warp flex flex-start bg-gray">
-          <img class="news-img" src="../assets/newsBanner.jpg" alt="">
-          <div class="flex section-warp flex-col">
-            <div>
-              <h3 class="news-title">未来设计创新研究中心学术委员会首次会议召开</h3>
-              The Fist FDC Academic Board Meeting Held
-            </div>
-            <div class="text-gray">
-              <span class="title-en">
-                8th, September, 2020
-              </span>
-              <span class="more">> 详情</span>
+             <router-link to="newsDetail"><span class="more">> 详情</span></router-link>
             </div>
           </div>
         </div>
@@ -104,7 +59,8 @@
 
 }
   @media (max-width: 414px) {
-
+    .news-warp{flex-direction: column;justify-content: center;align-items: center;}
+    .news-img{width: 100%;}
   }
 
 

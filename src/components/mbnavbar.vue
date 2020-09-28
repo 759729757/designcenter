@@ -1,143 +1,70 @@
 <template>
-  <div class="mbnav mb-only">
-    <div >
-      <img class="menu" src="../assets/menu.png" alt="">
-      <img class="close" src="../assets/close.png" alt="">
-    </div>
-    <div class=" mb-only">
-      <ul class=" mbnavbar" id="mbnavbar">
-        <li>
-          <router-link to="/">首页</router-link>
-        </li>
-        <li>
-          中心
-          <div class="subNav">
-            <dl>
-              <dd>
-                <router-link to="/about">中心简介</router-link>
-              </dd>
-              <dd>
-                <router-link to="/about">使命愿景</router-link>
-              </dd>
-              <dd>
-                <router-link to="/about">现任领导</router-link>
-              </dd>
-              <dd>
-                <router-link to="/about">组织架构</router-link>
-              </dd>
-              <dd>
-                <router-link to="/about">学术委员会</router-link>
-              </dd>
-            </dl>
-          </div>
-        </li>
-        <li>
-          新闻
-          <div class="subNav">
-            <dl>
-              <dd>
-                <router-link to="/news">通知</router-link>
-              </dd>
-              <dd>
-                <router-link to="/news">讲座</router-link>
-              </dd>
-              <dd>
-                <router-link to="/news">展览</router-link>
-              </dd>
-              <dd>
-                <router-link to="/news">教学</router-link>
-              </dd>
-              <dd>
-                <router-link to="/news">研究</router-link>
-              </dd>
-              <dd>
-                <router-link to="/news">合作</router-link>
-              </dd>
-              <dd>
-                <router-link to="/news">交流</router-link>
-              </dd>
-              <dd>
-                <router-link to="/news">学生</router-link>
-              </dd>
-              <dd>
-                <router-link to="/news">媒体</router-link>
-              </dd>
-            </dl>
-          </div>
-        </li>
-        <li>
-         教学
-          <div class="subNav">
-            <dl>
-              <dd>
-                <router-link to="/teacher">本科</router-link>
-              </dd>
-              <dd>
-                <router-link to="/teacher">研究生</router-link>
-              </dd>
-            </dl>
-          </div>
-        </li>
-        <li>
-          <router-link to="/teacher">师资</router-link>
-        </li>
-        <li>
-          研究
-          <div class="subNav">
-            <dl>
-              <dd>
-                <router-link to="/news">学术平台</router-link>
-              </dd>
-              <dd>
-                <router-link to="/news">学术成果</router-link>
-              </dd>
-              <dd>
-                <router-link to="/news">科研项目</router-link>
-              </dd>
-              <dd>
-                <router-link to="/news">科研获奖</router-link>
-              </dd>
-              <dd>
-                <router-link to="/news">学术期刊</router-link>
-              </dd>
-            </dl>
-          </div>
-        </li>
-        <li>
-          合作
-          <div class="subNav">
-            <dl>
-              <dd>
-                <router-link to="/news">国际</router-link>
-              </dd>
-              <dd>
-                <router-link to="/news">国内</router-link>
-              </dd>
-              <dd>
-                <router-link to="/news">校企</router-link>
-              </dd>
-            </dl>
-          </div>
-        </li>
-        <li>
-          <a>招聘</a>
-        </li>
-        <li>
-          服务
-          <div class="subNav">
-            <dl>
-              <dd>
-                <router-link to="/server">教师</router-link>
-              </dd>
-              <dd>
-                <router-link to="/server">学生</router-link>
-              </dd>
-            </dl>
-          </div>
-        </li>
-      </ul>
-    </div>
+  <div>
+    <div class="mbnav mb-only">
+      <div >
+        <img class="menu" src="../assets/menu.png" alt="">
+        <img class="close" src="../assets/close.png" alt="">
+      </div>
+      <div class=" mb-only">
+        <ul class=" mbnavbar" id="mbnavbar">
+          <li>
+            <router-link to="/">首页</router-link>
+          </li>
+          <li>
+            中心介绍
+            <div class="subNav">
+              <dl>
+                <dd>
+                  <router-link to="/about">中心简介</router-link>
+                </dd>
+                <dd>
+                  <router-link to="/about2">发展规划</router-link>
+                </dd>
+                <dd>
+                  <router-link to="/about3">现任领导</router-link>
+                </dd>
+                <dd>
+                  <router-link to="/about4">联系我们</router-link>
+                </dd>
+              </dl>
+            </div>
+          </li>
+          <li>
+            <router-link to="/weiyuan">学术委员会</router-link>
+          </li>
+          <li>
+            研究方向
+            <div class="subNav">
+              <dl>
+                <dd>
+                  <router-link to="/yanjiu1">未来生活方式</router-link>
+                </dd>
+                <dd>
+                  <router-link to="/yanjiu2">艺术与科技</router-link>
+                </dd>
+                <dd>
+                  <router-link to="/yanjiu3">未来设计教育</router-link>
+                </dd>
+              </dl>
+            </div>
+          </li>
+          <li>
+            <router-link to="/teachers">师资力量</router-link>
+          </li>
+          <li>
+            <router-link to="/news">新闻动态</router-link>
+          </li>
+          <li>
+            <router-link to="/zhaosheng">招生信息</router-link>
+          </li>
+          <li onclick="alert('网站正在建设中')">
+            种子基金
+          </li>
+        </ul>
+      </div>
 
+    </div>
+    <div class="nav-cover"></div>
   </div>
 
 </template>
@@ -190,7 +117,12 @@
     height: 45px;
     line-height: 45px;
     z-index: 888;
+    position: fixed;
+    left: 0;
+    top: 0;
   }
+  /*占位符，撑起高度*/
+  /*.nav-cover{height: 45px;}*/
   .mbnav .mbnavbar{
     transition: all .5s;
     transform-origin: top;

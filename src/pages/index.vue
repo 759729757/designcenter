@@ -34,16 +34,18 @@
           </div>
           <div class="flex content-warp gonggao">
             <img class="about-img" src="../assets/gonggao.jpg" alt="">
+            <router-link to="/zhaosheng">
             <div>
-              <h2 class="news-title">[招生] 北京师范大学2021年艺术专业硕士（非全日制）研究生招生章程</h2>
+              <h2 class="news-title">[招生] 北京师范大学2021年艺术专业硕士（非全日制）研究生招生章程</a></h2>
               <p class="title-en">
-                Introduction Master of Fine Arts Admission（Part-Time）
-              </p>
+                Beijing Normal University MFA (Part-time) Program
+               </p>
               <p class="title-en">
-                8th, September, 2020
+                24th, September, 2020
               </p>
             </div>
-            <strong class="more">> 详情</strong>
+            <strong class="more"><a href="/zhaosheng">> 详情</a></strong>
+		</router-link>
           </div>
         </div>
       </div>
@@ -57,93 +59,109 @@
 
         </div>
         <div class="tongzhi col-6">
-          <div class="title">
+          <div class="title show-md">
             <a href=""><h2 class="session-title"><span class="lefrborder"></span></h2></a>
           </div>
           <ul>
             <li class="title-warp news-list">
-              <router-link to="/detail">
-                <h2 class="news-title">未来设计创新研究中心学术委员会首次会议召开</h2>
+              <router-link to="/newsDetail">
+                <h2 class="news-title">未来设计中心FDC主任高鹏浅谈艺术教育</h2>
                 <p class="title-en">
-                  8th, September, 2020
+                  9th, September, 2020
                 </p>
               </router-link>
             </li>
-            <li class="title-warp news-list">
-              <router-link to="/detail">
-                <h2 class="news-title">未来设计创新研究中心学术委员会首次会议召开</h2>
-                <p class="title-en">
-                  8th, September, 2020
-                </p>
-              </router-link>
-            </li>
-            <li class="title-warp news-list">
-              <router-link to="/detail">
-                <h2 class="news-title">未来设计创新研究中心学术委员会首次会议召开</h2>
-                <p class="title-en">
-                  8th, September, 2020
-                </p>
-              </router-link>
-            </li>
+<!--            <li class="title-warp news-list">-->
+<!--              <router-link to="/newsDetail">-->
+<!--                <h2 class="news-title">未来设计中心FDC主任高鹏谈艺术教育梦</h2>-->
+<!--                <p class="title-en">-->
+<!--                  9th, September, 2020-->
+<!--                </p>-->
+<!--              </router-link>-->
+<!--            </li>-->
+<!--            <li class="title-warp news-list">-->
+<!--              <router-link to="/newsDetail">-->
+<!--                <h2 class="news-title">未来设计中心FDC主任高鹏谈艺术教育梦</h2>-->
+<!--                <p class="title-en">-->
+<!--                  9th, September, 2020-->
+<!--                </p>-->
+<!--              </router-link>-->
+<!--            </li>-->
           </ul>
         </div>
       </div>
 <!--      视频文件 -->
       <div class="row">
-        <img src="../assets/videoPoster.jpg" alt="">
+        <img class="videoPoster" src="../assets/indexbanner_bottom.jpg" alt="">
       </div>
 <!-- 研究方向 -->
       <div class="row flex major-warp flex-center bg-gray">
         <div class="col-5 flex flex-center content-warp flex-start">
           <img class="headImg" src="../assets/major.jpg" alt="">
-          <div class="title-warp">
-            <h2 class="news-title">未来生活生产方式</h2>
+          <div class="title-warp show-lg">
+            <h2 class="news-title">未来生活方式</h2>
             <p class="title-en">
-              Future Lifestyle and Method of Production
+              Future Lifestyle
             </p>
           </div>
         </div>
-        <div class="col-5 flex content-warp flex-center">
-            <p>
-              面向基于新技术变革而形成的未来文化环境和生活方式的服装、家具、首饰、室内环境、交互设备等具体产品设计。
+        <div class="col-5 flex content-warp text-warp flex-center">
+          <div class="title-warp show-md show-sm">
+            <h2 class="news-title">未来生活方式</h2>
+            <p class="title-en">
+              Future Lifestyle
             </p>
-          <router-link to="yanjiu"><strong class="more">> 详情</strong></router-link>
+          </div>
+            <p>这是一个面向市场、面向新型互联网文化、面向基于新技术变革而形成的未来文化环境和生活方式，进行的实用型产品的设计课程方向的研究。该领域研究体现人文关怀，对接具体产品和功能设计，链接广大文化设计生活应用。</p>
+          <router-link to="yanjiu1"><strong class="more">> 详情</strong></router-link>
+
         </div>
       </div>
 
       <div class="row flex major-warp flex-center bg-gray">
-        <div class="col-5 flex content-warp flex-center">
-          <p>
-            在科技和设计交叉领域的前沿概念性研究。 如在AI人工智能设计应用、新媒体交互设计等领域的实验性、概念性研究。
-          </p>
-          <router-link to="yanjiu"><strong class="more">> 详情</strong></router-link>
-        </div>
-        <div class="col-5 flex flex-center content-warp flex-start">
-          <div class="title-warp ">
-            <h2 class="news-title">未来艺术与科技</h2>
+        <div class="col-5 flex content-warp text-warp flex-center">
+          <div class="title-warp show-md show-sm">
+            <img class="headImg show-sm" src="../assets/major3.jpg" alt="">
+            <h2 class="news-title">艺术与科技</h2>
             <p class="title-en">
-              Future Art and Technology
+              Art and Technology
             </p>
           </div>
-          <img class="headImg" src="../assets/major3.jpg" alt="">
+          <p>
+“艺术与科技”针对科技在艺术设计领域的应用，涉及AI人工智能设计应用、新媒体交互设计、认知学科等领域，专注于对未来潜在可能性的概念性设计，如展览展示中的机器学习、感知方式对于使用的影响等。          </p>
+          <router-link to="yanjiu2"><strong class="more">> 详情</strong></router-link>
+        </div>
+        <div class="col-5 flex flex-center content-warp flex-start">
+          <div class="title-warp show-lg">
+            <h2 class="news-title">艺术与科技</h2>
+            <p class="title-en">
+              Art and Technology
+            </p>
+          </div>
+          <img class="headImg show-md show-lg" src="../assets/major3.jpg" alt="">
         </div>
       </div>
 
       <div class="row flex major-warp flex-center bg-gray">
         <div class="col-5 flex flex-center content-warp flex-start">
           <img class="headImg" src="../assets/major2.jpg" alt="">
-          <div class="title-warp">
-            <h2 class="news-title">未来艺术与设计教育</h2>
+          <div class="title-warp show-lg">
+            <h2 class="news-title">未来设计教育</h2>
             <p class="title-en">
-              Future Arts and Design Education
+              Future Design Education
             </p>
           </div>
         </div>
-        <div class="col-5 flex content-warp flex-center">
+        <div class="col-5 flex content-warp text-warp flex-center">
+          <div class="title-warp show-md show-sm">
+            <h2 class="news-title">未来设计教育</h2>
+            <p class="title-en">
+              Future Design Education
+            </p>
+          </div>
           <p>
-            透彻了解国际教育体系、环境和发展趋势， 研发出适合中国本土国情的、面向未来文化和技术环境的设计教学的课程框架和教材。
-          </p>
-          <router-link to="yanjiu"> <strong class="more">> 详情</strong></router-link>
+“未来设计教育”是在教育学领域所作的创新研究，是为了培养未来设计所需的新型人才、探讨设计教育的未来发展方向，而准备的系统化、逻辑化，具有教学评估体系的教育研究。 </p>
+          <router-link to="yanjiu3"> <strong class="more">> 详情</strong></router-link>
         </div>
       </div>
 
@@ -272,22 +290,22 @@
           'https://ai.bnu.edu.cn/images/gaiban/logo_01.png'
         ],
         swiperOptions: {
-          loop:true,
-          initialSlide:0,
-          slidesPerView :'auto',
-          // slidesPerView :document.documentElement.clientWidth < 768 ? 1 : 3,
-          spaceBetween : 20,
-          // pagination: {//分页器
-          //   el: '.swiper-pagination'
-          // },
-          navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-          },
-          updateOnWindowResize: true,
-          observer:true,//修改swiper自己或子元素时，自动初始化swiper
-          observeParents:true//修改swiper的父元素时，自动初始化swiper
-          // Some Swiper option/callback...
+        //   loop:true,
+        //   initialSlide:0,
+        //   slidesPerView :'auto',
+        //   // slidesPerView :document.documentElement.clientWidth < 768 ? 1 : 3,
+        //   spaceBetween : 20,
+        //   // pagination: {//分页器
+        //   //   el: '.swiper-pagination'
+        //   // },
+        //   navigation: {
+        //     nextEl: '.swiper-button-next',
+        //     prevEl: '.swiper-button-prev',
+        //   },
+        //   updateOnWindowResize: true,
+        //   observer:true,//修改swiper自己或子元素时，自动初始化swiper
+        //   observeParents:true//修改swiper的父元素时，自动初始化swiper
+        //   // Some Swiper option/callback...
         },
 
 
@@ -509,6 +527,7 @@
   .news-list{padding:10px 20px;background: #eee;}
   .news-list .news-title{margin-top: 0;margin-bottom: 5px;}
   .title-en{font-size: 18px;font-family: '微软雅黑';font-weight: lighter;}
+  .videoPoster{width: 100%;}
 
 
   /*未来设计研究方向*/
@@ -520,23 +539,29 @@
   .major-warp .content-warp .more{right: 50px;font-weight: lighter;}
 
   @media (max-width: 769px) {
-    .col-4,.col-6 {
+    .row{display: block;}
+    .row.major-warp{display: flex;}
+    .col-4,.col-6{
       width: 100%;padding-left: 0!important;
     }
+    .major-warp{padding: 20px 20px;}
+    .title-warp+.headImg{margin-left: 0;}
+    .row.major-warp>.col-5{width: 140px;padding: 0;margin: 0 20px;}
+    .row.major-warp>.col-5.text-warp{width: 100%;
+      flex-direction: column;align-items: start;}
+    .major-warp:nth-child(2) .headImg{margin-right: 50px;}
+
   }
   @media (max-width: 414px) {
-    .tongzhi ul li a{
-      width: calc(100% - 90px);
-    }
-    .major-warp.item-3{
-      flex-wrap: wrap;
-      align-items: center;
-      justify-content: center;
-    }
-    .major-warp.item-3 .item{
-      width: 80%;margin-bottom: 40px;
-    }
-
+    .gonggao{flex-direction: column;justify-items: center;align-items: center;}
+    .gonggao .about-img{margin-bottom: 20px;}
+    .tongzhi ul li{height: auto;}
+  /*  研究方向*/
+    .row.major-warp{flex-direction: column;justify-content: center;align-items: center;}
+    .row.major-warp .headImg.show-sm{display: inline-block;margin-bottom: 15px;}
+    .row.major-warp>.col-5.text-warp{margin:20px 0 0;padding-bottom: 20px;justify-content: center;align-items: center;}
+    .major-warp .content-warp .more{right: 0;}
+    .row.major-warp .title-warp{text-align: center;}
 
   }
 

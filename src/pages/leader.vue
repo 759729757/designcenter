@@ -19,7 +19,7 @@
   import mainnavbar from '../components/mainnavbar'
   import user from '../components/user'
   import mbnavbar from '../components/mbnavbar'
-  import gaopeng from '../components/gaopeng'
+  import gaopeng from '../components/weiyuan/gaopeng'
 
     export default {
         name: "about",
