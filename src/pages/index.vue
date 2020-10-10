@@ -26,7 +26,7 @@
               北京师范大学未来设计创新研究中心（以下简称未来设计中心FDC）是成立于2019年11月的研究型实体中心。未来设计中心FDC将工作根植于艺术与科技的交叉领域，通过在人文、艺术、设计、科技、社科等领域广泛的跨界合作，以及研究、教育、实践一体化，形成以学科互补、问题驱动、项目导向为特色的教学，面向基于技术革命的未来生活方式变革和未来设计教育，培养具有精确专业素养、专业前沿视野、综合分析能力和科学人文理念的复合型创新型人才，开发基于实际应用环境的具有国际前沿水准的实验性设计产品，为设计行业的探索性发展提供先驱实践。
             </p>
           </div>
-          <strong class="more">> 详情</strong>
+          <router-link to="/about"><strong class="more">> 详情</strong></router-link>
         </div>
         <div class="col-6 title-warp content-warp ">
           <div class="title">
@@ -36,7 +36,7 @@
             <img class="about-img" src="../assets/gonggao.jpg" alt="">
             <router-link to="/zhaosheng">
             <div>
-              <h2 class="news-title">[招生] 北京师范大学2021年艺术专业硕士（非全日制）研究生招生章程</a></h2>
+              <h2 class="news-title">[招生] 北京师范大学2021年艺术专业硕士（非全日制）研究生招生章程</h2>
               <p class="title-en">
                 Beijing Normal University MFA (Part-time) Program
                </p>
@@ -44,22 +44,23 @@
                 24th, September, 2020
               </p>
             </div>
-            <strong class="more"><a href="/zhaosheng">> 详情</a></strong>
-		</router-link>
+            <router-link to="/zhaosheng"><strong class="more">> 详情</strong></router-link>
+	  	</router-link>
           </div>
         </div>
       </div>
       <div class="mode1 row">
         <div class="news col-4">
           <div class="title">
-            <a href=""><h2 class="session-title"><span class="lefrborder"></span>
+            <a href="">
+              <h2 class="session-title"><span class="lefrborder"></span>
               <router-link to="/news">新闻动态</router-link></h2></a>
           </div>
           <img class="news-banner" src="../assets/newsbanner.jpg" alt="">
 
         </div>
         <div class="tongzhi col-6">
-          <div class="title show-md">
+          <div class="title show-md show-lg">
             <a href=""><h2 class="session-title"><span class="lefrborder"></span></h2></a>
           </div>
           <ul>
@@ -552,7 +553,7 @@
     .major-warp:nth-child(2) .headImg{margin-right: 50px;}
 
   }
-  @media (max-width: 414px) {
+  @media (max-width: 768px) {
     .gonggao{flex-direction: column;justify-items: center;align-items: center;}
     .gonggao .about-img{margin-bottom: 20px;}
     .tongzhi ul li{height: auto;}

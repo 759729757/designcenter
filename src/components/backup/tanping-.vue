@@ -3,11 +3,8 @@
 <!--      <h2 class="section-title">学习经历</h2>-->
       <div class="container-sm">
         <h2>谭平</h2>
-        <strong>艺术学科带头人</strong>
-        <p>
-          职称：教授 <br>
-          研究领域：艺术与设计教育研究
-        </p>
+        <strong>学术委员会主任委员（美术学科带头人） <br>教授</strong>
+
         <strong>学习经历</strong>
         <p>
           1980-1984 中央美术学院 学士<br>

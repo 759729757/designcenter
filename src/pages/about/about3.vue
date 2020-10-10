@@ -50,7 +50,7 @@
   import footerbar from '../../components/footerbar'
   import mainnavbar from '../../components/mainnavbar'
   import mbnavbar from '../../components/mbnavbar'
-  import gaopeng from '../../components/weiyuan/gaopeng'
+  import gaopeng from './gaopeng'
 
   export default {
       name: "about3",
@@ -130,7 +130,7 @@
     .left-part{width: 120px;}
     .right-part{width: calc(100% - 120px);margin-bottom: 50px;}
   }
-  @media (max-width: 414px) {
+  @media (max-width: 768px) {
     .left-part{
       display: none;
     }

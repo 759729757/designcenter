@@ -139,7 +139,7 @@
     .heading p{padding-left: 0;}
     .right-part{width: calc(100% - 120px);margin-bottom: 50px;}
   }
-@media (max-width: 414px) {
+@media (max-width: 768px) {
   .left-part{
     display: none;
   }

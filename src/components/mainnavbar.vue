@@ -94,11 +94,11 @@
           document.getElementById('nav') && document.getElementById('nav').classList.remove('fixed')
         }
         //固定 tab
-        if (top > 440) {
-          document.getElementsByClassName('tab') && document.getElementsByClassName('tab')[0].classList.add('fixed')
-        } else {
-          document.getElementsByClassName('tab') && document.getElementsByClassName('tab')[0].classList.remove('fixed')
-        }
+        // if (top > 440) {
+        //   document.getElementsByClassName('tab') && document.getElementsByClassName('tab')[0].classList.add('fixed')
+        // } else {
+        //   document.getElementsByClassName('tab') && document.getElementsByClassName('tab')[0].classList.remove('fixed')
+        // }
 
       },
     },

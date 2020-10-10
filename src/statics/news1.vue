@@ -472,7 +472,7 @@
         <img data-ratio="0.6665"
              data-src="https://mmbiz.qpic.cn/mmbiz_jpg/xIYMgH7g8Q5fSXTMvwiaJyeJibsjAz1DAXx71ODOnicTC854XyE2htols6x9uGUhiaK2PybVBCoUyicZKKcB8PbiaBXg/640?wx_fmt=jpeg"
              data-type="jpeg" data-w="2000" title="6.2019年，世界图像：徐冰《蜻蜓之眼》" data-backw="546" data-backh="364"
-             style="width: 645px !important; height: 430.56px !important;" _width="100%" class="img_loading"
+             style="width: 100%;" _width="100%" class="img_loading"
              src="./imgs/5.webp.jpg"
              crossorigin="anonymous"></p>
       <p

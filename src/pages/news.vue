@@ -8,7 +8,7 @@
       </div>
       <div class="container ">
         <div class="news-warp flex flex-start bg-gray">
-          <img class="news-img" src="../assets/newsBanner.jpg" alt="">
+          <img class="news-img" src="../assets/newsbanner.jpg" alt="">
           <div class="flex section-warp flex-col">
             <div>
               <h3 class="news-title">未来设计中心FDC主任高鹏谈艺术教育梦</h3>
@@ -58,7 +58,7 @@
 @media (max-width: 1100px) {
 
 }
-  @media (max-width: 414px) {
+  @media (max-width: 768px) {
     .news-warp{flex-direction: column;justify-content: center;align-items: center;}
     .news-img{width: 100%;}
   }

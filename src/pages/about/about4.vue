@@ -40,10 +40,11 @@
               <br><br>邮箱：fdc@bnu.edu.cn
 
 
-			 <br><br><strong>Future Design Center Beijing Normal University </strong>
+			 <br><br><strong>Future Design Center,Beijing Normal University </strong>
 		  <br><br>Add: 18# of Jinfeng Road, Zhuhai City, Guangdong Province, 519087, P. R. China
 	      <br><br>Tel: 86-756-3683973
 		  <br><br>E-mail: fdc@bnu.edu.cn
+		  <br><br>
           </div>
 
 
@@ -173,7 +174,7 @@
     .left-part{width: 120px;}
     .right-part{width: calc(100% - 120px);margin-bottom: 50px;}
   }
-  @media (max-width: 414px) {
+  @media (max-width: 768px) {
     .left-part{
       display: none;
     }

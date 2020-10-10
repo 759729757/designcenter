@@ -123,7 +123,7 @@
           <div class=" col-5 flex section-warp flex-col">
             <p>
               学术委员会委员（未来理论、艺术心理方向带头人） <br>
-              研究领域：艺术史论、当代艺术、交互理论和应用技术
+              研究领域：艺术设计史论、交互理论和应用技术
             </p>
             <router-link to="weiyuanDetail?person=miri"><span class="more">> 详情</span></router-link>
           </div>
@@ -183,7 +183,7 @@
 @media (max-width: 1100px) {
 
 }
-  @media (max-width: 414px) {
+  @media (max-width: 768px) {
     .head-img{margin: 0;}
     .flex{flex-direction: column;align-items: center;justify-content: center;}
     .col-5{width: 100%;}

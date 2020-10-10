@@ -68,7 +68,7 @@
         </div>
         <div class=" col-5 flex section-warp flex-col">
           <p>
-            研究领域：艺术史论、当代艺术、交互理论和 <br>应用技术
+            研究领域：艺术设计史论、交互理论和应用技术
           </p>
           <router-link to="teacherDetail?person=miri"><span class="more">> 详情</span></router-link>
         </div>
@@ -126,7 +126,7 @@
           <div class="flex col-5 flex-start">
             <img class="head-img" src="../assets/yejingtian.jpg" alt="">
             <div class="flex-col flex-center">
-              <div><h2 class="name">叶锦添</h2>　<span>教授</span></div>
+              <div><h2 class="name">叶锦添</h2>　<span>特聘教授</span></div>
               <p>Prof. Ye JinTian</p>
             </div>
           </div>
@@ -177,7 +177,7 @@
   @media (max-width: 1100px) {
 
   }
-  @media (max-width: 414px) {
+  @media (max-width: 768px) {
     .head-img{margin: 0;}
     .flex{flex-direction: column;align-items: center;justify-content: center;}
     .col-5{width: 100%;}

@@ -35,6 +35,7 @@
 .banner img{
   width: 100%;
 }
+img{max-width: 100%!important;}
 .news-img{width: 300px;}
 .news-warp{margin-bottom: 50px;position: relative;}
 .news-warp:first-child{margin-top: 50px;}
@@ -44,11 +45,16 @@
 .news-warp h3{margin-top: 0;margin-bottom: 10px;}
 
 @media (max-width: 1100px) {
-
-}
-  @media (max-width: 414px) {
-
+  .container-sm, .container {
+    margin: 0 auto;
   }
+}
 
+  @media (max-width: 768px) {
+    .container {
+      width: 96%;
+      margin: 0 2%;
+    }
+  }
 
 </style>

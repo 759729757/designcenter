@@ -44,10 +44,14 @@
 .news-warp h3{margin-top: 0;margin-bottom: 10px;}
 
 @media (max-width: 1100px) {
-
+.container{margin: 0 auto;}
 }
-  @media (max-width: 414px) {
 
+  @media (max-width: 768px) {
+    .container {
+      width: 96%;
+      margin: 0 2%;
+    }
   }
 
 

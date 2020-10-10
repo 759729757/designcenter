@@ -2,10 +2,13 @@
   <div class="header">
      <div class="container ">
        <div class="logo">
-         <a href="index.html">
+         <router-link to="/">
            <img src="../assets/logo.svg" width="250">
-         </a>
+         </router-link>
        </div>
+       <router-link class="version" to="/en">
+         English
+       </router-link>
      </div>
   </div>
 </template>
@@ -23,7 +26,11 @@
   background-color: #004a9d;
 }
   .header .container{
-    height: 137px;padding: 20px;box-sizing: border-box;
+    height: 137px;padding: 20px;box-sizing: border-box;position: relative;
+  }
+  .version{
+    color: #eee;
+    position: absolute;right: 0;top: 10px;
   }
   @media (max-width: 769px) {
     .logo{
@@ -31,7 +38,7 @@
     }
   }
 
-@media (max-width: 414px) {
+@media (max-width: 768px) {
   .nav{
     display: none;
   }

@@ -81,11 +81,11 @@
           document.getElementById('nav') && document.getElementById('nav').classList.remove('fixed')
         }
         //固定 tab
-        if (top > 440) {
-          document.getElementById('tab') && document.getElementById('tab').classList.add('fixed')
-        } else {
-          document.getElementById('tab') && document.getElementById('tab').classList.remove('fixed')
-        }
+        // if (top > 440) {
+        //   document.getElementById('tab') && document.getElementById('tab').classList.add('fixed')
+        // } else {
+        //   document.getElementById('tab') && document.getElementById('tab').classList.remove('fixed')
+        // }
 
       },
     },

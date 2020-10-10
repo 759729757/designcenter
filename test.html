@@ -1,0 +1,40 @@
+
+
+<!--导航栏 + 顶部大图-->
+<div class="container-full" >
+  <div class="banner" style="background-image:url('/images/$curChannel.logo')"></div>
+</div>
+<div class="container session">
+  <!--  <h2 class="main-title">$curChannel.title</h2> -->
+  <div class="content flex">
+
+
+    #foreach($article in $cms.getChildren($curChannel))
+    #set ($tab = $article)
+    #foreach( $article2 in $cms.getContents($tab,1) )
+    <div class=" item2  item-pad">
+
+      <div class="bg-light flex relative">
+        <h3 class="item-pad text-hini">
+        #if($article2.name == "未来设计创新研究中心")
+          <a href="http://de.bnuz.edu.cn/stuinfosystem/stusystem/demo/#/" target="_blank">
+          #else
+          <a href="$cms.getUrl($article)" target="_blank">
+        #end
+            $article2.name<br> <br>
+            <SPAN style="font-size: 14PX">$article2.viceTitle $article2.summary</SPAN>
+          </a>
+        </h3>
+      </div>
+
+    </div>
+    #end
+    #end
+
+
+  </div>
+
+</div>
+
+
+#parse("footer.vm")

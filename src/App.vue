@@ -19,6 +19,7 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
+  p{line-height: 26px;}
   a {
     color: rgb(46, 46, 46);
     text-decoration: none;
@@ -80,14 +81,23 @@
   .flex-end{justify-content: end;}
 
   .mb-only,.show-md,.show-sm{display: none;}
+  .show-lg{display: block;}
+  @media (max-width: 1024px) {
+    .container{width: 96%;margin: 0 2%;}
+  }
   @media (max-width: 769px) {
-    .container{width: 90%;margin: 0 5%;}
+    .show-lg{display: none;}
+    .container-sm,.container{width: 90%;margin: 0 5%;}
     .show-md{
       display: block;
     }
   }
 
-  @media (max-width: 414px) {
+  @media (max-width: 768px) {
+    .container{
+      width: 96%;
+      margin: 0 2%;
+    }
     .pc-only {
       display: none;
     }

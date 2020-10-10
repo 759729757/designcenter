@@ -169,7 +169,7 @@
     width: calc(27% - 40px);
   }
 }
-@media (max-width: 414px) {
+@media (max-width: 768px) {
   .col-3{
     display: none;
   }
