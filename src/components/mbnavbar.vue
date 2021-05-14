@@ -55,10 +55,14 @@
             <router-link to="/news">新闻动态</router-link>
           </li>
           <li>
+            <router-link to="/zhaopin">人才招聘</router-link>
+          </li>
+          <li>
             <router-link to="/zhaosheng">招生信息</router-link>
           </li>
-          <li onclick="alert('网站正在建设中')">
-            种子基金
+          <li >
+            <router-link to="/seedfund">种子基金</router-link>
+
           </li>
         </ul>
       </div>

@@ -1,39 +1,89 @@
-
-
-<!--导航栏 + 顶部大图-->
-<div class="container-full" >
-  <div class="banner" style="background-image:url('/images/$curChannel.logo')"></div>
-</div>
+#parse("header.vm")
 <div class="container session">
-  <!--  <h2 class="main-title">$curChannel.title</h2> -->
-  <div class="content flex">
+
+  <style>
+    .content{
+      max-width: 1000px; margin: auto;   padding: 0 70px;
+    }
+
+    @media (max-width: 992px) {
 
 
-    #foreach($article in $cms.getChildren($curChannel))
-    #set ($tab = $article)
-    #foreach( $article2 in $cms.getContents($tab,1) )
-    <div class=" item2  item-pad">
+    }
+  </style>
 
-      <div class="bg-light flex relative">
-        <h3 class="item-pad text-hini">
-        #if($article2.name == "未来设计创新研究中心")
-          <a href="http://de.bnuz.edu.cn/stuinfosystem/stusystem/demo/#/" target="_blank">
-          #else
-          <a href="$cms.getUrl($article)" target="_blank">
-        #end
-            $article2.name<br> <br>
-            <SPAN style="font-size: 14PX">$article2.viceTitle $article2.summary</SPAN>
+  <div class="content news-content">
+    <!--内容-->
+    #foreach($article in $cms.getPageContents($curChannel, $curPage))
+    <div class="flex flex-row flex-left flex-align-items-start pointer">
+      <div class="flex flex-col content-warp" >
+        <h2>
+          <a href="$cms.getUrl($article)">
+            $article.name
           </a>
-        </h3>
+        </h2>
+        <p>
+          <img src="/cms/binary/images/517/20190911100029797123.png" class="icon icon-sm">
+          $cms.format($article.publishDate,"MM-dd")
+          <!--<img src="../../assets/eyes.png" class="icon icon-sm" style="margin-left: 2em;">-->
+          <!--234-->
+        </p>
+        <a href="$cms.getUrl($article)">
+          <p style="font-size: 14px;">
+            $!{article.summary}
+          </p>
+        </a>
       </div>
-
     </div>
     #end
-    #end
-
-
+    <div style="float: right;margin-top: 40px;">
+      共 $totalRows 条&nbsp;&nbsp;$curPage/$totalPage&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="$cms.getIndexFileName($curChannel, 1)">首页</a>&nbsp;|&nbsp;
+      <a href="$cms.getIndexFileName($curChannel, $prePage)">上页</a>&nbsp;|&nbsp;
+      <a href="$cms.getIndexFileName($curChannel, $nextPage)">下页</a>&nbsp;|&nbsp;
+      <a href="$cms.getIndexFileName($curChannel, $totalPage)">尾页</a>
+    </div>
   </div>
+</div>
+</div>
+</div>
+#parse("footer.vm")
 
+
+
+
+
+
+#parse("header.vm")
+<style>
+  .container{
+    overflow: hidden;
+  }
+</style>
+<div class="container session">
+  <h2 class="main-title">$curChannel.title</h2>
+  <div class="content flex">
+
+    #foreach($article in $cms.getPageContents($curChannel, $curPage))
+    <div class=" item2  item-pad">
+      <a href="$cms.getUrl($article)">
+        <div class="bg-light flex relative">
+          <h3 class="item-pad text-hini">
+            $article.name
+          </h3>
+          <img src="$cms.getPictureUrl($article)"  class="logoImg">
+        </div>
+      </a>
+    </div>
+    #end
+  </div>
+  <div style="float: right;margin: 40px 0;">
+    共 $totalRows 条&nbsp;&nbsp;$curPage/$totalPage&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="$cms.getIndexFileName($curChannel, 1)">首页</a>&nbsp;|&nbsp;
+    <a href="$cms.getIndexFileName($curChannel, $prePage)">上页</a>&nbsp;|&nbsp;
+    <a href="$cms.getIndexFileName($curChannel, $nextPage)">下页</a>&nbsp;|&nbsp;
+    <a href="$cms.getIndexFileName($curChannel, $totalPage)">尾页</a>
+  </div>
 </div>
 
 

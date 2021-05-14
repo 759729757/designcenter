@@ -29,12 +29,15 @@
     height: 137px;padding: 20px;box-sizing: border-box;position: relative;
   }
   .version{
-    color: #eee;
+    color: #eee;z-index: 999;
     position: absolute;right: 0;top: 10px;
   }
   @media (max-width: 769px) {
     .logo{
       text-align: center;
+    }
+    .version{
+      font-size: 12px;
     }
   }
 

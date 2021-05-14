@@ -10,14 +10,14 @@
       <div class=WordSection1>
 
         <p class=MsoNormal align=center style='text-align:center;mso-pagination:widow-orphan;margin-bottom: 5px;
-background:white'><b><span lang=EN-US style='font-size:18px;font-family:仿宋_GB2312;
+background:white'><b><span lang=EN-US style='font-size:20px;font-family:仿宋_GB2312;
 mso-hansi-font-family:仿宋_GB2312;mso-bidi-font-family:仿宋_GB2312;color:black;
-mso-font-kerning:0pt'>2021</span></b><b><span style='font-size:18px;
+mso-font-kerning:0pt'>2021</span></b><b><span style='font-size:20px;
 font-family:仿宋_GB2312;mso-hansi-font-family:仿宋_GB2312;mso-bidi-font-family:
 仿宋_GB2312;color:black;mso-font-kerning:0pt'>年北京师范大学艺术与传媒学院<span lang=EN-US><o:p></o:p></span></span></b></p>
 
         <p class=MsoNormal align=center style='text-align:center;mso-pagination:widow-orphan;margin-top:0;
-background:white'><b><span style='font-size:18px;font-family:仿宋_GB2312;
+background:white'><b><span style='font-size:20px;font-family:仿宋_GB2312;
 mso-hansi-font-family:仿宋_GB2312;mso-bidi-font-family:仿宋_GB2312;color:black;
 mso-font-kerning:0pt'>美术专业艺术设计（珠海）调剂方案<span lang=EN-US><o:p></o:p></span></span></b></p>
 
@@ -26,7 +26,7 @@ mso-char-indent-count:2.0;mso-pagination:widow-orphan;background:white'><span
           style='font-size:16px;font-family:仿宋_GB2312;mso-hansi-font-family:仿宋_GB2312;
 mso-bidi-font-family:仿宋_GB2312;color:black;mso-font-kerning:0pt'>接收调剂<b>为非全日制定向就业</b>培养方式<span
           lang=EN-US>135107</span>美术专业艺术设计（珠海）方向。<span lang=EN-US><br>
-</span></span><b><span style='font-size:16px;font-family:仿宋_GB2312;
+</span></span><b><br><span style='font-size:16px;font-family:仿宋_GB2312;
 mso-hansi-font-family:仿宋_GB2312;mso-bidi-font-family:仿宋_GB2312;mso-font-kerning:
 0pt'>一、基本条件</span></b><span lang=EN-US style='font-size:12.0pt;font-family:
 "微软雅黑","sans-serif";mso-bidi-font-family:宋体;color:#333333;mso-font-kerning:
@@ -99,8 +99,11 @@ mso-font-kerning:0pt'> </span><span style='font-size:16px;font-family:仿宋_GB2
 mso-hansi-font-family:仿宋_GB2312;mso-bidi-font-family:仿宋_GB2312;color:black;
 mso-font-kerning:0pt'>复试时间为<span lang=EN-US>3</span>月<span lang=EN-US>27</span>日。</span><span
           lang=EN-US><br>
-</span><b><span style='font-size:16px;font-family:仿宋_GB2312;mso-hansi-font-family:
-仿宋_GB2312;mso-bidi-font-family:仿宋_GB2312;mso-font-kerning:0pt'>四、复试办法</span></b></p>
+</span><b></b></p>
+        <p>
+          <span style='font-size:16px;font-family:仿宋_GB2312;mso-hansi-font-family:
+仿宋_GB2312;mso-bidi-font-family:仿宋_GB2312;mso-font-kerning:0pt;font-weight: bold;'>四、复试办法</span>
+        </p>
 
         <p class=MsoNormal style='text-indent:26.9pt;line-height:28.0pt;mso-line-height-rule:
 exactly;tab-stops:0cm'><span style='font-size:16px;font-family:仿宋_GB2312;

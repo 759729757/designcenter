@@ -34,7 +34,9 @@
         <div class="right-part">
           <div class="heading">
             <p>
-              Beijing Normal University Future Design Center (FDC) is a research-based center established in November 2019. Grounded at the cross-disciplinary research in art and technology, FDC fosters an integrated practice of research, education and practice through collaboration across humanities, art, design, technology, and social sciences. It provides problem-driven and project-oriented education within complementary disciplines. With three research directions - Future Lifestyle, Future Art and Technology, Future Design Education, FDC aims to equip talents with professional literacy, cutting-edge vision, analytical skills, and scientific and humanistic concepts, and develop experimental products for practical environment with international advanced standards.
+              Beijing Normal University Future Design Center (FDC) is a research-based center established in November 2019 and it carries out the preparation for the establishment of Future Design School (FDS) of Beijing Normal University estimated in early 2021. Grounded at the cross-disciplinary research in design, technology and education, FDC fosters an integrated practice of research, education and practice through collaboration across humanities, arts, design, technology, and social sciences, and provides problem-driven and project-oriented education within complementary disciplines. It covers three research directions:
+              <strong>Future Design, Art and Technology, Design and Education.
+            </strong>FDC aims to equip innovative talents with comprehensive analytical skills, cutting-edge vision, professional literacy and scientific and humanistic concepts. With the goal of providing pioneering and exploration practices for design industry, FDC also focuses on the design and development of experimental products applied in practical environment with international advanced standards.
               <br><br>
               <img src="../../../assets/yuanbai.png" style="width: 100%;" alt="">
             </p>

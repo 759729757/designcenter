@@ -1,134 +1,157 @@
 <template>
   <div>
     <h2 class="text-center" >
-      北京师范大学“未来设计种子基金”方案
+      Beijing Normal University Future Design Seed Fund
     </h2>
     <div class="rich_media_content ">
-      <p ><br>
-        北京师范大学珠海校区，是北师大建设“综合性、研究型、教师教育领先的中国特色世界一流大学”的重要组成部分，是按照学校“一体两翼”办学格局和“高标准、新机制、国际化”原则，打造的与北京校区同一水平的南方校区。2017年8月，广东省、珠海市、北京师范大学共同签署了《共建北京师范大学珠海校区协议》，三方协力共同推进北京师范大学珠海校区建设。2019年4月，教育部正式批准珠海校区建设。
-<br>
-        <br>北京师范大学未来设计创新研究中心（以下简称未来设计中心FDC）是成立于2019年11月的研究型实体中心，并担任筹建北京师范大学未来设计学院的工作，学院有望在2021年上半年正式成立。未来设计中心FDC将工作根植于艺术与科技的交叉领域，通过在人文、艺术、设计、科技、社科等领域广泛的跨界合作，以及研究、教育、实践一体化，形成以学科互补、问题驱动、项目导向为特色的教学，设立未来生活方式，艺术与科技，未来设计教育三个研究方向，培养具有精确专业素养、专业前沿视野、综合分析能力和科学人文理念的复合型创新型人才，开发基于实际应用环境的具有国际前沿水准的实验性设计产品，为设计行业的探索性发展提供先驱实践。
-<br>
-        <br><strong>一、背景和意义</strong>
-        <br>随着新技术的诞生与应用，世界正在走向新的生活方式，呈现出“多元化、电子化、新语言、新交流模式、体验感”的特征。但目前，未来设计领域在国内的研究尚未得到足够重视，对具有创新突破精神的设计师、设计工作室的支持亟待加强。为促进该领域创新设计师成长、凝聚全球优秀设计人才，未来设计中心、未来设计学院（筹）于2020年10月15日正式推出“未来设计种子基金”（以下简称种子基金）。
-<br>
-        <br>种子基金是专项用于资助全球范围内优秀设计师、设计团队、设计公司的公益性基金，希望能提供一个良好的平台，让具有“未来创变精神”的设计师在交流、观察、研究与自我审视中不断成长，使其处于将艺术与科学和社会责任联系起来的创意与创新网络的核心位置。未来设计中心、未来设计学院（筹）希望借助种子基金，吸引全球优秀设计师汇聚珠海，将珠海打造成创新设计人才聚集地。
-<br>
-        <br>种子基金邀请国内外知名艺术学院领军人物、世界重量级设计奖项评审委员、设计学科评议组专家等8人组成专家评委。
-<br>
-        <br>设立种子基金，有助于未来设计中心、未来设计学院（筹）在全球范围内发现设计人才，储备青年教师；广泛组织社会力量，联合开展设计创新研究；搭建新型实习实训平台，优化创新人才培养模式；深化校企合作，推动设计创新成果转化。
-<br>
-        <br><strong>二、专家评委</strong>
-        <br><strong>谭平</strong>
-        <br>中国美术家协会实验艺术委员会主任、国际当代艺术研究中心主任，曾任中国艺术研究院副院长、中央美术学院副院长
-<br>
-        <br><strong>高鹏</strong>
-        <br>北京师范大学研究员、未来设计创新研究中心主任，中国博物馆协会美术馆专业委员会理事，中央美术学院理事，今日美术馆荣誉馆长
-<br>
-        <br><strong>王敏</strong>
-        <br>长江学者特聘教授、联合国科教文组织中国委员会评审专家、国务院学位办学位授权点调整评审工作专家，曾任中央美术学院设计学院院长
-<br>
-        <br><strong>许平</strong>
-        <br>国务院学位委员会第七届（设计学）学科评议组召集人，曾任中央美术学院设计学院副院长、研究生院院长、设计文化与政策研究所所长
-<br>
-        <br><strong>Tony Brown</strong>
-        <br>法国巴黎国立高等美术学院终身教授，曾任巴黎高等美术学院雕塑系主任、“塞纳计划”艺术博士项目主任、帕森斯艺术设计学院巴黎分院教务长
-<br>
-        <br><strong>李琦</strong>
-        <br>北京大学遥感与GIS所教授，率先提出“数字城市”概念并将技术运用到北京奥运会等多项重大活动中，获国家、省部级科技进步奖12项
-<br>
-        <br><strong>Miriam Mirolla</strong>
-        <br>罗马美术学院终身教授、知觉理论专业和艺术心理学专业主席，世界领域“未来”概念研究专家
-<br>
-        <br><strong>叶锦添</strong>
-        <br>美术指导、服装设计师、视觉艺术家，曾获奥斯卡“最佳艺术指导”和英国电影学院“最佳服装设计”等奖项
-<br>
-        <br><strong>三、资助机制</strong>
-        <br>名额：10-15个创新设计项目
-        <br>金额：每个项目50-200万元
-<br>
-        <br>2021.3公布最终入围名单，发放第一笔资助基金，占总金额30%；
-        <br>2021.12 中期评估，向通过者发放第二笔资助基金，占总金额30%；
-        <br>2022.10-2022.11 成果发布，发放第三笔资助基金，占总金额40%。
-<br>
-        <br>最终入围者优先考虑吸纳为未来设计中心、未来设计学院（筹）教师或合作伙伴。
-<br>
-        <br> <strong>四、申请条件</strong>
-       <br> 1、个人、团队、公司均可申请（“个人”指自然人，“团队”指由两个或以上自然人组成的共同体或法人单位，“公司”指依照公司法在中国境内设立的以营利为目的的社团法人）；
-       <br> 2、个人、团队或公司负责人需满足年龄25周岁以上；
-       <br> 3、研究领域或设计项目需满足未来生活设计、艺术与科技、未来设计教育任一方向；
-       <br> 4、最终入围项目需接受未来设计中心、未来设计学院（筹）优秀学生到项目中实习；
-       <br> 5、方案必须切实可行，且有合理的预算控制；
-       <br> 6、展览和展品应能在三个月的展览期内保持良好状态。
-<br>
-        <br> <strong>五、申请材料（中英双语）</strong>
-       <br> 1、个人、团队或公司所有参与者的身份证或护照扫描件；
-        <br>2、个人/团队/公司简介，包括但不限于：联系方式、常居地、自我介绍、过往作品集或研究成果介绍；
-        <br>3、1000-2000字主题陈述；
-        <br>4、20页PPT以上方案介绍，包含但不限于：方案概念、方案执行、时间表、预算表。
-<br>
-        <br><strong>六、提交方式</strong>
-        <br>将申请材料PDF版于2021年1月15日前发送到邮箱fdc@bnu.edu.cn，邮件主题为“未来设计种子基金+姓名”
-        <br>咨询电话：86-756-3683973
+      <p >
+        <br>In order to build a "comprehensive, research-oriented and world-class university with Chinese characteristics", Beijing Normal University (BNU) has established the Zhuhai Campus as a significant constitutional part. Sticking to the strategic deployment of “One University, Two Campuses”, Zhuhai Campus will develop with the unified positioning as Beijing Campus, based on the principle of “High standard, New mechanism and Internationalization”. In August, 2017, Guangdong Provincial and Zhuhai Municipal governments, and BNU signed a tripartite agreement in Guangzhou to jointly bolster the development of Zhuhai Campus and in April, 2019, the construction plan of Zhuhai Campus is officially approved by the Ministry of Education.
         <br>
-        <br><strong>七、时间安排</strong>
+        <br>Beijing Normal University Future Design Center (FDC) is a research-based center established in November 2019 and it carries out the preparation for the establishment of Future Design School (FDS) of Beijing Normal University estimated in early 2021. Grounded at the cross-disciplinary research in art and technology, FDC fosters an integrated practice of research, education and practice through collaboration across humanities, arts, design, technology and social sciences, and provides problem-driven and project-oriented education within complementary disciplines. It covers three research directions: <strong>Future Design, Art and Technology, Design and Education.</strong> FDC aims to equip innovative talents with professional literacy, cutting-edge vision, comprehensive analytical skills, and scientific and humanistic concepts. With the goal of providing pioneering and exploration practices for design industry, FDC also focuses on the design and development of experimental products applied in practical environment with international advanced standards.
+        <br>
+        <br><strong>I. Background and Significance</strong>
+        <br>With the emergence and application of new technologies, the world is moving towards a new way of life, featuring “diversity, electronics, new languages, new communication modes and experience". However, the research in the field of future design has not received enough attention and support for designers and design studios in China. In order to stimulate the innovation of designers in this field and to build up a global talent pool, the FDC and the FDS (in preparation) officially launched the Future Design Seed Fund on October 15, 2020.
+        <br>
+        <br>The Seed Fund is a public welfare fund designed to support outstanding designers, design teams and design companies around the world. By providing a platform for designers with the spirit of "future innovation", the exchange, observation, research and self-examination of designers can be facilitated, making them link art with technology with social responsibilities. With the Seed Fund, the FDC and FDS (in preparation) expect to attract and gather the world's outstanding designers to Zhuhai with seed funding and make Zhuhai a gathering place for innovative design talent.
+        <br>
+        <br>The Seed Fund invites a panel of eight experts from leading art schools in China and abroad, as well as the judges with the world's leading design awards and design disciplines.
+        <br>
+        <br>Launching the Seed Fund aims to identify design talents and youth teachers worldwide for the talent pool of FDC and FDS (in preparation); to organize a wide range of social forces to jointly carry out scientific research; to build a new type of practical training platform and optimize the training mode for talent innovation; and to deepen university-enterprise cooperation and accelerate the transformation of scientific research results in FDC and FDS (in preparation).
+<br>
+        <br><strong>II. Judges</strong>
+        <br>
+        <br><strong>TAN Ping</strong>
+          <br>Chair of the Experimental Art Committee of China Artists Association
+          <br>Director of National Research Center of Contemporary Arts
+          <br>Former Vice President of Chinese National Academy of Arts
+          <br>Former Dean of School of Design, Chinese National Academy of Arts
+          <br>
+          <br><strong>GAO Peng</strong>
+          <br>Researcher at Beijing Normal University
+          <br>Director of Future Design Center, Beijing Normal University
+          <br>Member of Fine Arts Council, Chinese Museums Association
+          <br>Council Member, Central Academy of Fine Arts
+          <br>Honorary Director, Today Art Museum
+          <br>
+          <br><strong>WANG Min</strong>
+          <br>Professor of Changjiang Scholar Program
+          <br>Member of Expert Review Panel, Chinese National Commission for UNESCO
+          <br>Review Board Expert of Degree Authorization Point Adjustment, Office of the State Council Academic Degrees Committee
+          <br>Former Dean of School of Design, Chinese National Academy of Arts
+          <br>
+          <br><strong>XU Ping</strong>
+          <br>Associate Dean of the School of Design and Dean of Graduate School, Central Academy of Fine Arts
+          <br>Director of Institute for Design Culture and Policy, Central Academy of Fine Arts
+          <br>Chair of the Review Board, 7th Chinese State Council Academic Degrees Committee of Design Discipline
+          <br>
+          <br><strong>Tony Brown</strong>
+          <br>Tenured full Professor of the École Nationale Supérieure des Beaux-arts de Paris, France
+          <br>Former Dean of the Sculpture Department
+          <br>Director of the Doctoral Program“La Seine”
+          <br>Former Provost of the Parsons School for Design, Paris
+          <br>
+          <br><strong>LI Qi</strong>
+          <br>Professor of Remote Sensing & GIS, Peking University
+          <br>Firstly proposed the concept of “Digital City” and applied it into 2008 Beijing Olympic Games
+          <br>Won 12 Science and Technology Progress Awards on the national and provincial level
+          <br>
+          <br><strong>Miriam Mirolla</strong>
+          <br>Tenured Professor at Academy of Fine Arts in Rome
+          <br>Chair of Theory of Perception and Psychology of Art at Academy of Fine Arts in Rome
+          <br>Leading expert in global futurism research
+          <br>
+          <br><strong>Tim Yip</strong>
+          <br>Art Director for Stage
+          <br>Film and Fashion Designer
+          <br><strong>Visual Artist</strong>
+          <br>Won the Oscar for "Best Art Direction" and the British Film and Television Academy award for "Best Costume Design"
+      <br>
+        <br><strong>III. Funding Amount</strong>
+        <br>10-15 innovative design or research projects with￥500,000-2,000,000 fund per project.
+        <br>The finalists are preferred to be recruited as teachers or partners for FDC and FDS (in preparation).
+<br>
+        <br><strong>IV. Funding Categories</strong>
+        <br>Artwork, design projects, research papers or entrepreneurship projects, etc.
+        <br>
+        <br><strong>V. Funding Areas</strong>
+        <br>The design or research project shall meet one of the three directions: Future Design, Art and Technology, Design and Education, including experimental artwork, new-media artwork, information and visual communication design, space and product design, fashion life design, traditional handicraft design, interaction design, architecture and environment design, art design psychology research, art design education research, design curriculum development, etc.
+        <br>
+        <br><strong>VI. Application Requirement</strong>
+        <br>1.	The seed fund is open to individuals, teams and companies ("individuals" refers to natural persons, "teams" refers to communities or legal entities consisting of two or more natural persons, and "companies" refers to corporations established in China for profit-making purposes in accordance with the Company Law).
+        <br>2.	The applicant shall be the main designer being 25-45 years old.
+        <br>3.	The project plan shall be feasible for implementation with reasonable budgetary control.
+        <br>4.	The project shall involve outstanding FDC and FDS (in preparation) students for internship.
+        <br>
+        <br><strong>VII. Application Material (both Chinese or English versions required)</strong>
+        <br>1.	Valid ID of the individual or the main designer of the team/company (valid ABC bank account in mainland)
+        <br>2.	A brief introduction of the /team/company and portfolio of past works or research.
+        <br>3.	1,000-2,000 words thematic statement.
+        <br>4.	Within 20-page PowerPoint presentation of the Project Plan, including but not limited to: project concept, implementation plan, time schedule, budget, project result within two years and display method.
+        <br>
+        <br><strong>VIII. Submission</strong>
+        <br>Please submit the application materials to email: fdc@bnu.edu.cn by February 21, 2021 with the subject named "Future Design Seed Fund + Applicant Name"
+        Contact: 86-756-3683973
+        <br>
       </p>
+      <br><strong>IX. Schedule</strong>
       <table>
         <tr>
-          <td>时间</td><td>申请者</td><td>主办方</td>
+          <td>Time</td><td>Applicant</td><td>Organizer</td>
         </tr>
         <tr>
-          <td>2020.10.15</td><td></td><td>发布“未来设计种子基金”</td>
+          <td>2020.10.15</td><td></td><td>Launch the “Future Design Seed Fund”</td>
         </tr>
         <tr>
-          <td>2020.10.16-2021.1.15</td><td>提交方案</td><td></td>
+          <td>2020.10.16-2021.2.21</td><td>Submit the project plan</td><td></td>
         </tr>
         <tr>
-          <td>2021.1.16-2021.1.24</td><td></td><td>初评</td>
+          <td>2021.2.22-2021.2.28</td><td></td><td>Assessment</td>
         </tr>
         <tr>
-          <td>2021.1.25</td><td></td><td>公布首轮入围名单</td>
+          <td>2021.3.1</td><td></td><td>Release list of shortlisted candidates</td>
         </tr>
         <tr>
-          <td>2021.1.26-2021.3.21</td><td>修改方案</td><td></td>
+          <td>2021.3.2-2021.3.21</td><td>Plan review</td><td></td>
         </tr>
         <tr>
-          <td>2021.3.22-2021.3.30</td><td></td><td>复评</td>
+          <td>2021.3.22-2021.3.30</td><td></td><td>Reassessment</td>
         </tr>
         <tr>
-          <td>2021.3.31</td><td></td><td>公布最终入围名单（10-15项）</td>
+          <td>2021.3.31</td><td></td><td><br>Release the finalists;<br>
+          Release the first instalment of the seed fund
+        </td>
         </tr>
         <tr>
-          <td></td><td></td><td>启动第一笔资助基金发放</td>
+          <td>2021.7-2021.8</td><td>Summer camp of Future Design Seed Fund</td><td></td>
         </tr>
         <tr>
-          <td>2021.7-2021.8</td><td>“未来种子基金”夏令营专题活动</td><td></td>
+          <td>2021.12</td><td>Mid-term report</td><td></td>
         </tr>
         <tr>
-          <td>2021.12</td><td>中期汇报</td><td></td>
+          <td>2021.12</td><td></td><td>Mid-term assessment;<br>
+          Release the second instalment of the seed fund
+        </td>
         </tr>
         <tr>
-          <td>2021.12</td><td></td><td>中期评估，启动第二笔资助基金发放</td>
+          <td>2021.4-2022.9</td><td>Refine design plan</td><td>Expert coaching</td>
         </tr>
         <tr>
-          <td>2021.4-2022.9</td><td>设计深化</td><td>专家辅导</td>
+          <td>2022.10</td><td>Attend the result press release and exhibition</td><td></td>
         </tr>
         <tr>
-          <td>2022.10</td><td>参加成果发布会及展览汇报</td><td></td>
-        </tr>
-        <tr>
-          <td>2022.11</td><td></td><td>第三笔资助基金发放结束</td>
+          <td>2022.11</td><td></td><td>Release the third instalment of the seed fund</td>
         </tr>
       </table>
       <p>
-        <strong>八、活动声明</strong>
-        <br>依据国家有关法律法规，凡主动提交方案的申请者，将被视为已对所提交的方案作出如下不可撤销声明：
-        <br>原创声明：申请方案是申请者的原创，未侵犯任何人的任何著作权、商标权及其他知识产权，且该方案未以任何形式进入商业渠道。否则，未来设计中心、未来设计学院（筹）将取消其申请与入围资格，并保留追究法律责任的权利。
-        <br>方案知识产权归属：最终入围方案的成果和版权归北京师范大学和设计者共同所有。
+        <strong>X. Statement of Activities</strong>
+        <br>According to national laws and regulations, applicants who submit the proposal on their own initiative will be deemed to have made the following irrevocable declaration on the proposal submitted.
+        <br><strong>Declaration of Originality: </strong>The application’s project plan is the original work of the applicant and does not infringe any copyright, trademark or other intellectual property rights of others. The project and materials submitted shall have no copyright disputes and has not entered into commercial channels in any form. Otherwise, FDC and FDS (in preparation) will disqualify the applicant from applying and being shortlisted, and reserve the right to investigate for legal responsibility.
+        <br><strong>Intellectual property rights of the finalists: </strong>The results and copyrights of the shortlisted projects are co-shared by Beijing Normal University and the designers.
 <br>
-        <br><strong>九、紧急终止制度</strong>
-        <br>为保证基金能有效资助到合格的个人、团队或公司项目，对于没有实际执行能力、对设计工作缺乏责任感或无法根据预定要求完成工作的个人、团队或公司，未来设计中心、未来设计学院（筹）有权取消其资助资格。
-        <br>在法律范围内，本次活动的最终解释权归未来设计中心、未来设计学院（筹）所有。
+        <br><strong>XI. Emergency Termination</strong>
+        <br>The Future Design Center and the Future Design School (in preparation) reserve the right to disqualify any individual, team or company that lacks the ability to execute the project, lacks responsibility for the design work, or is unable to complete the work according to the predetermined requirements.
+        <br>The right of final interpretation this activity belongs to Beijing Normal University Future Design Center and Future Design School (in preparation)
+
       </p>
     </div>
   </div>

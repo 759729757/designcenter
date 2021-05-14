@@ -19,33 +19,34 @@
       <div class="row">
         <div class="title-warp col-4 content-warp">
           <div class="title">
-            <h2 class="session-title"><span class="lefrborder"></span><router-link to="/about">About FDC</router-link></h2>
+            <h2 class="session-title"><span class="lefrborder"></span><router-link to="/enabout">About FDC</router-link></h2>
           </div>
           <div class="dd-content">
             <p>
-              Beijing Normal University Future Design Center (FDC) is a research-based center established in November 2019. Grounded at the cross-disciplinary research in art and technology, FDC fosters an integrated practice of research, education and practice through collaboration across humanities, art, design, technology, and social sciences. It provides problem-driven and project-oriented education within complementary disciplines. With three research directions - Future Lifestyle, Future Art and Technology, Future Design Education, FDC aims to equip talents with professional literacy, cutting-edge vision, analytical skills, and scientific and humanistic concepts, and develop experimental products for practical environment with international advanced standards.
+              Beijing Normal University Future Design Center (FDC) is a research-based center established in November 2019 and it carries out the preparation for the establishment of Future Design School (FDS) of Beijing Normal University estimated in early 2021. Grounded at the cross-disciplinary research in design, technology and education, FDC fosters an integrated practice of research, education and practice through collaboration across humanities, arts, design, technology, and social sciences, and provides problem-driven and project-oriented education within complementary disciplines. It covers three research directions:
+              <strong>Future Design, Art and Technology, Design and Education.</strong>FDC aims to equip innovative talents with comprehensive analytical skills, cutting-edge vision, professional literacy and scientific and humanistic concepts. With the goal of providing pioneering and exploration practices for design industry, FDC also focuses on the design and development of experimental products applied in practical environment with international advanced standards.
             </p>
           </div>
-          <router-link to="/about"><strong class="more">> More</strong></router-link>
+          <router-link to="/enabout"><strong class="more">> More</strong></router-link>
         </div>
         <div class="col-6 title-warp content-warp ">
           <div class="title">
             <h2 class="session-title"><span class="lefrborder"></span>
-              <router-link to="/about">Announcement</router-link></h2>
+              <router-link to="/enabout">Announcement</router-link></h2>
           </div>
           <div class="flex content-warp gonggao">
-            <img class="about-img" src="../../assets/gonggao.jpg" alt="">
-            <router-link to="/zhaosheng">
+            <img class="about-img" src="../../assets/engonggao.jpg" alt="">
+            <router-link to="/enseedfund">
             <div>
-              <h2 class="news-title">Beijing Normal University MFA (Part-time) Program </h2>
+              <h2 class="news-title">Beijing Normal University “Future Design Seed Fund” <br> Shortlist Announced </h2>
+<!--              <p class="title-en">-->
+<!--                [招生] 北京师范大学2021年艺术专业硕士（非全日制）研究生招生章程-->
+<!--               </p>-->
               <p class="title-en">
-                [招生] 北京师范大学2021年艺术专业硕士（非全日制）研究生招生章程
-               </p>
-              <p class="title-en">
-                24th, September, 2020
+                16th, Mar, 2021
               </p>
             </div>
-            <router-link to="/zhaosheng"><strong class="more">> More</strong></router-link>
+            <router-link to="/enseedfund"><strong class="more">> More</strong></router-link>
 	  	</router-link>
           </div>
         </div>
@@ -55,9 +56,9 @@
           <div class="title">
             <a href="">
               <h2 class="session-title"><span class="lefrborder"></span>
-              <router-link to="/news">News</router-link></h2></a>
+              <router-link to="/ennews">News</router-link></h2></a>
           </div>
-          <img class="news-banner" src="../../assets/newsbanner.jpg" alt="">
+          <img class="news-banner" src="../../assets/news/en6-1.jpg" alt="">
 
         </div>
         <div class="tongzhi col-6">
@@ -66,13 +67,36 @@
           </div>
           <ul>
             <li class="title-warp news-list">
-              <router-link to="/newsDetail">
-                <h2 class="news-title">未来设计中心FDC主任高鹏浅谈艺术教育</h2>
+              <router-link to="/ennewsDetail?news=6">
+                <h2 class="news-title">
+                  FUTURE DESIGN EDUCATION LAB Was Jointly Established by Beijing Normal University Future Design Center and Lenovo
+                </h2>
                 <p class="title-en">
-                  9th, September, 2020
+                  16th, Apri, 2021
                 </p>
               </router-link>
             </li>
+            <li class="title-warp news-list">
+              <router-link to="/ennewsDetail?news=5">
+                <h2 class="news-title">
+                  Relocation Plan of 2021 Fine Arts (Art Design) Program of School of Arts and Communication, Beijing Normal University
+                </h2>
+                <p class="title-en">
+                  15th, Mar, 2021
+                </p>
+              </router-link>
+            </li>
+<!--            <li class="title-warp news-list">-->
+<!--              <router-link to="/ennewsDetail?news=4">-->
+<!--                <h2 class="news-title">-->
+<!--                  FDC Experts Engaged in Academic Activities in Zhuhai <br>-->
+<!--                  Boosting the Development of Design Education in the Greater Bay Area-->
+<!--                </h2>-->
+<!--                <p class="title-en">-->
+<!--                  1st, Apri, 2021-->
+<!--                </p>-->
+<!--              </router-link>-->
+<!--            </li>-->
           </ul>
         </div>
       </div>
@@ -85,7 +109,7 @@
         <div class="col-5 flex flex-center content-warp flex-start">
           <img class="headImg" src="../../assets/major.jpg" alt="">
           <div class="title-warp show-lg">
-            <h2 class="news-title">Future Lifestyle</h2>
+            <h2 class="news-title"> Future Design</h2>
 <!--            <p class="title-en">-->
 <!--              未来生活方式-->
 <!--            </p>-->
@@ -93,15 +117,14 @@
         </div>
         <div class="col-5 flex content-warp text-warp flex-center">
           <div class="title-warp show-md show-sm">
-            <h2 class="news-title">Future Lifestyle</h2>
+            <h2 class="news-title">Future Design</h2>
 <!--            <p class="title-en">-->
 <!--              未来生活方式-->
 <!--            </p>-->
           </div>
-            <p>
-              practical design for new cultural forms
+            <p>Comprehensive Design for Future Production, Lifestyle and Ideology
             </p>
-          <router-link to="yanjiu1"><strong class="more">> More</strong></router-link>
+          <router-link to="enyanjiu1"><strong class="more">> More</strong></router-link>
 
         </div>
       </div>
@@ -115,17 +138,13 @@
 <!--              艺术与科技-->
 <!--            </p>-->
           </div>
-          <p>
-            research for frontier conceptualization
+          <p>Conceptual research for cutting-edge issues
           </p>
-          <router-link to="yanjiu2"><strong class="more">> More</strong></router-link>
+          <router-link to="enyanjiu2"><strong class="more">> More</strong></router-link>
         </div>
         <div class="col-5 flex flex-center content-warp flex-start">
           <div class="title-warp show-lg">
             <h2 class="news-title">Art and Technology</h2>
-<!--            <p class="title-en">-->
-<!--              艺术与科技-->
-<!--            </p>-->
           </div>
           <img class="headImg show-md show-lg" src="../../assets/major3.jpg" alt="">
         </div>
@@ -135,23 +154,16 @@
         <div class="col-5 flex flex-center content-warp flex-start">
           <img class="headImg" src="../../assets/major2.jpg" alt="">
           <div class="title-warp show-lg">
-            <h2 class="news-title">Future Design Education</h2>
-<!--            <p class="title-en">-->
-<!--              未来设计教育-->
-<!--            </p>-->
+            <h2 class="news-title">Design and Education</h2>
           </div>
         </div>
         <div class="col-5 flex content-warp text-warp flex-center">
           <div class="title-warp show-md show-sm">
-            <h2 class="news-title">Future Design Education</h2>
-<!--            <p class="title-en">-->
-<!--              未来设计教育-->
-<!--            </p>-->
+            <h2 class="news-title">Design and Education</h2>
           </div>
-          <p>
-            facing future educational system development in design
+          <p>A study of teaching and development in future design education
           </p>
-          <router-link to="yanjiu3"> <strong class="more">> More</strong></router-link>
+          <router-link to="enyanjiu3"> <strong class="more">> More</strong></router-link>
         </div>
       </div>
 
@@ -272,7 +284,7 @@
     margin: 20px 0 0 0;padding: 0;
   }
   .tongzhi ul li {
-    height: 70px;
+    min-height: 70px;
     margin: 0 0 11px 0;
     overflow: hidden;
   }

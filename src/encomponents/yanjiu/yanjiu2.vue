@@ -9,12 +9,9 @@
 <!--      <h2 class="section-title">学习经历</h2>-->
       <div class="container-sm">
         <h2 class="news-title">Art and Technology</h2>
-
         <p>
-          research for frontier conceptualization<br> <br>
-          Art and Technology” concentrates on the application of technology in art and design, including AI design, new media interaction design, and perception in design, with the focus of conceptual design of potential future possibilities, such as machine learning in exhibitions and displays and the impact of perception on the design.
-          <br> <br>
-          This research direction closely links to international frontier disciplines, strives for first-class academic research results, aiming to tackle frontier issues with the scientific and technological aspects on human’s life patterns in the future society. It insists on sustainable innovation, and cultivates innovative art and design students with cross-border thinking, problem-solving ability, future vision, and systematic and strategic thinking patterns.
+          <strong>Conceptual research for cutting-edge issues</strong><br><br>
+          “Art and Technology” concentrates on the application of technology in art and design and conducts conceptual exploration and practice of frontier issues involving new media interaction design, AI design, user experience, cognitive modalities and social and cultural research. The research in this field closely links to international frontier disciplines, strives for first-class academic research results, aiming to tackle frontier issues with the scientific and technological aspects on human’s life patterns in future society. Adhering to sustainable innovation and exploration, it nurtures innovative art and design talents with cross-border thinking, problem-solving ability, future vision, and systematic and strategic thinking.
         </p>
 
       </div>

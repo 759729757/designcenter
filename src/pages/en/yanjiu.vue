@@ -8,81 +8,65 @@
       </div>
       <div class="container ">
         <!-- 研究方向 -->
-        <div class="row flex major-warp flex-center bg-gray" id="yanjiu1">
+        <div class="row flex major-warp flex-center bg-gray">
           <div class="col-5 flex flex-center content-warp flex-start">
             <img class="headImg" src="../../assets/major.jpg" alt="">
             <div class="title-warp show-lg">
-              <h2 class="news-title">Future Lifestyle</h2>
-<!--              <p class="title-en">-->
-<!--                未来生活方式-->
-<!--              </p>-->
+              <h2 class="news-title"> Future Design</h2>
+              <!--            <p class="title-en">-->
+              <!--              未来生活方式-->
+              <!--            </p>-->
             </div>
           </div>
           <div class="col-5 flex content-warp text-warp flex-center">
-            <div class="title-warp show-md">
-              <h2 class="news-title">Future Lifestyle</h2>
-<!--              <p class="title-en">-->
-<!--                未来生活方式-->
-<!--              </p>-->
+            <div class="title-warp show-md show-sm">
+              <h2 class="news-title">Future Design</h2>
+              <!--            <p class="title-en">-->
+              <!--              未来生活方式-->
+              <!--            </p>-->
             </div>
-            <p>
-              practical design for new cultural forms
+            <p>Comprehensive Design for Future Production, Lifestyle and Ideology
+            </p>
+            <router-link to="enyanjiu1"><strong class="more">> More</strong></router-link>
 
-           </p>
-           <router-link to="enyanjiu1">
-             <strong class="more">> More</strong>
-           </router-link>
           </div>
         </div>
 
-        <div class="row flex major-warp flex-center bg-gray" id="yanjiu2">
+        <div class="row flex major-warp flex-center bg-gray">
           <div class="col-5 flex content-warp text-warp flex-center">
-            <div class="title-warp show-md">
+            <div class="title-warp show-md show-sm">
+              <img class="headImg show-sm" src="../../assets/major3.jpg" alt="">
               <h2 class="news-title">Art and Technology</h2>
-<!--              <p class="title-en">-->
-<!--                艺术与科技-->
-<!--              </p>-->
+              <!--            <p class="title-en">-->
+              <!--              艺术与科技-->
+              <!--            </p>-->
             </div>
-            <p>
-              research for frontier conceptualization
+            <p>Conceptual research for cutting-edge issues
             </p>
-            <router-link to="enyanjiu2">
-              <strong class="more">> More</strong>
-            </router-link>          </div>
+            <router-link to="enyanjiu2"><strong class="more">> More</strong></router-link>
+          </div>
           <div class="col-5 flex flex-center content-warp flex-start">
             <div class="title-warp show-lg">
               <h2 class="news-title">Art and Technology</h2>
-<!--              <p class="title-en">-->
-<!--                艺术与科技-->
-<!--              </p>-->
             </div>
-            <img class="headImg" src="../../assets/major3.jpg" alt="">
+            <img class="headImg show-md show-lg" src="../../assets/major3.jpg" alt="">
           </div>
         </div>
 
-        <div class="row flex major-warp flex-center bg-gray" id="yanjiu3">
+        <div class="row flex major-warp flex-center bg-gray">
           <div class="col-5 flex flex-center content-warp flex-start">
             <img class="headImg" src="../../assets/major2.jpg" alt="">
             <div class="title-warp show-lg">
-              <h2 class="news-title">Future Design Education</h2>
-<!--              <p class="title-en">-->
-<!--                未来设计教育-->
-<!--              </p>-->
+              <h2 class="news-title">Design and Education</h2>
             </div>
           </div>
           <div class="col-5 flex content-warp text-warp flex-center">
-            <div class="title-warp show-md">
-              <h2 class="news-title"> Future Design Education</h2>
-<!--              <p class="title-en">-->
-<!--                未来设计教育-->
-<!--              </p>-->
+            <div class="title-warp show-md show-sm">
+              <h2 class="news-title">Design and Education</h2>
             </div>
-            <p>
-              facing future educational system development in design
+            <p>A study of teaching and development in future design education
             </p>
-            <router-link to="enyanjiu3">
-              <strong class="more">> More</strong>
-            </router-link>
+            <router-link to="enyanjiu3"> <strong class="more">> More</strong></router-link>
           </div>
         </div>
 

@@ -1,11 +1,5 @@
 <template>
   <div>
-    <mbnavbar></mbnavbar>
-    <zx-header></zx-header>
-    <mainnavbar></mainnavbar>
-    <div class="banner">
-      <img src="../assets/banner.jpg" alt="">
-    </div>
     <div class="container ">
       <div>
         <h2 class="text-center" >
@@ -869,8 +863,6 @@
       </div>
 
     </div>
-
-    <footerbar></footerbar>
   </div>
 </template>
 

@@ -23,29 +23,31 @@
           </div>
           <div class="dd-content">
             <p>
-              北京师范大学未来设计创新研究中心（以下简称未来设计中心FDC）是成立于2019年11月的研究型实体中心。未来设计中心FDC将工作根植于艺术与科技的交叉领域，通过在人文、艺术、设计、科技、社科等领域广泛的跨界合作，以及研究、教育、实践一体化，形成以学科互补、问题驱动、项目导向为特色的教学，面向基于技术革命的未来生活方式变革和未来设计教育，培养具有精确专业素养、专业前沿视野、综合分析能力和科学人文理念的复合型创新型人才，开发基于实际应用环境的具有国际前沿水准的实验性设计产品，为设计行业的探索性发展提供先驱实践。
+              北京师范大学未来设计创新研究中心（以下简称未来设计中心FDC）是成立于2019年11月的研究型实体中心，并担任筹建北京师范大学未来设计学院的工作，学院有望在2021年上半年正式成立。未来设计中心FDC将工作根植于艺术与科技的交叉领域，通过在人文、艺术、设计、科技、社科等领域广泛的跨界合作，以及研究、教育、实践一体化，形成以学科互补、问题驱动、项目导向为特色的教学，设立未来设计，艺术与科技，设计与教育三个研究方向，培养具有精确专业素养、专业前沿视野、综合分析能力和科学人文理念的复合型创新型人才，开发基于实际应用环境的具有国际前沿水准的实验性设计产品，为设计行业的探索性发展提供先驱实践。 
             </p>
           </div>
           <router-link to="/about"><strong class="more">> 详情</strong></router-link>
         </div>
         <div class="col-6 title-warp content-warp ">
           <div class="title">
-            <h2 class="session-title"><span class="lefrborder"></span><router-link to="/about">公告通知</router-link></h2>
+            <h2 class="session-title"><span class="lefrborder"></span><router-link to="/notice">公告通知</router-link></h2>
           </div>
           <div class="flex content-warp gonggao">
-            <img class="about-img" src="../assets/gonggao.jpg" alt="">
-            <router-link to="/zhaosheng">
+            <img class="about-img" src="../assets/news/gonggao3.jpg" alt="">
+            <a target="_blank" href="https://mp.weixin.qq.com/s?__biz=MzkyMDEyNzU5Mw==&mid=2247485478&idx=1&sn=19b1de54ee1e064248b5f68bcf74c3f3&chksm=c196d920f6e15036085b63271e22ddea9d5cf358396f88ad40aff36eda51befda428062b30a5&token=1067240805&lang=zh_CN#rd">
             <div>
-              <h2 class="news-title">[招生] 北京师范大学2021年艺术专业硕士（非全日制）研究生招生章程</h2>
+              <h2 class="news-title">北京师范大学“未来设计种子基金” <br>最终入围名单公布
+              </h2>
+<!--              <p class="title-en">-->
+<!--                Shortlist announcement of preliminary evaluation of Beijing Normal University "Future Design Seed Fund"-->
+<!--               </p>-->
               <p class="title-en">
-                Beijing Normal University MFA (Part-time) Program
-               </p>
-              <p class="title-en">
-                24th, September, 2020
+                <br>
+                16th, Apri, 2021
               </p>
             </div>
-            <router-link to="/zhaosheng"><strong class="more">> 详情</strong></router-link>
-	  	</router-link>
+            <a target="_blank" href="https://mp.weixin.qq.com/s?__biz=MzkyMDEyNzU5Mw==&mid=2247485478&idx=1&sn=19b1de54ee1e064248b5f68bcf74c3f3&chksm=c196d920f6e15036085b63271e22ddea9d5cf358396f88ad40aff36eda51befda428062b30a5&token=1067240805&lang=zh_CN#rd"><strong class="more">> 详情</strong></a>
+	  	</a>
           </div>
         </div>
       </div>
@@ -56,7 +58,7 @@
               <h2 class="session-title"><span class="lefrborder"></span>
               <router-link to="/news">新闻动态</router-link></h2></a>
           </div>
-          <img class="news-banner" src="../assets/newsbanner.jpg" alt="">
+          <img class="news-banner" src="../assets/news/news8.png" alt="">
 
         </div>
         <div class="tongzhi col-6">
@@ -65,24 +67,56 @@
           </div>
           <ul>
             <li class="title-warp news-list">
-              <router-link to="/newsDetail">
-                <h2 class="news-title">未来设计中心FDC主任高鹏浅谈艺术教育</h2>
+              <a target="_blank" href="https://mp.weixin.qq.com/s?__biz=MzkyMDEyNzU5Mw==&mid=2247485439&idx=1&sn=736e17ecb4b6bcb233b3a1b2840f072a&chksm=c196d6f9f6e15fefc436e9782760186f6704687e2fd36ecd5ed4c7e5f912dfbcc7af17545861&token=986176304&lang=zh_CN#rd">
+                <h2 class="news-title">深化校企合作｜北师大未来设计中心FDC与联想共同成立“未来设计教育实验室”</h2>
                 <p class="title-en">
-                  9th, September, 2020
+                  1st, Apri, 2021
+                </p>
+              </a>
+            </li>
+            <li class="title-warp news-list">
+              <router-link to="/newsDetail?news=7">
+                <h2 class="news-title">北师大未来设计中心FDC承办2020迪拜世博会中华文化馆茶空间设计项目</h2>
+                <p class="title-en">
+                  23th, Mar, 2021
+                </p>
+              </router-link>
+            </li>
+            <li class="title-warp news-list">
+              <router-link to="/newsDetail?news=5">
+                <h2 class="news-title">海内外优秀青年学者云聚FDC分论坛，共议设计、教育新成果</h2>
+                <p class="title-en">
+                  4th, Jan, 2021
                 </p>
               </router-link>
             </li>
 <!--            <li class="title-warp news-list">-->
-<!--              <router-link to="/newsDetail">-->
-<!--                <h2 class="news-title">未来设计中心FDC主任高鹏谈艺术教育梦</h2>-->
+<!--              <router-link to="/newsDetail?news=4">-->
+<!--                <h2 class="news-title">FDC专家在珠开展系列学术活动，促湾区设计教育发展</h2>-->
 <!--                <p class="title-en">-->
-<!--                  9th, September, 2020-->
+<!--                  4th, December, 2020-->
 <!--                </p>-->
 <!--              </router-link>-->
 <!--            </li>-->
 <!--            <li class="title-warp news-list">-->
-<!--              <router-link to="/newsDetail">-->
-<!--                <h2 class="news-title">未来设计中心FDC主任高鹏谈艺术教育梦</h2>-->
+<!--              <router-link to="/newsDetail?news=3">-->
+<!--                <h2 class="news-title"> 未来设计中心FDC携手北京、珠海国际设计周立足湾区，创意...</h2>-->
+<!--                <p class="title-en">-->
+<!--                  4th, December, 2020-->
+<!--                </p>-->
+<!--              </router-link>-->
+<!--            </li>-->
+<!--            <li class="title-warp news-list">-->
+<!--              <router-link to="/newsDetail?news=2">-->
+<!--                <h2 class="news-title">中心在京举行新闻发布会 发布“未来设计种子基金”和硕士招生...</h2>-->
+<!--                <p class="title-en">-->
+<!--                  15th, October, 2020-->
+<!--                </p>-->
+<!--              </router-link>-->
+<!--            </li>-->
+<!--            <li class="title-warp news-list">-->
+<!--              <router-link to="/newsDetail?news=1">-->
+<!--                <h2 class="news-title">未来设计中心FDC主任高鹏浅谈艺术教育</h2>-->
 <!--                <p class="title-en">-->
 <!--                  9th, September, 2020-->
 <!--                </p>-->
@@ -100,20 +134,22 @@
         <div class="col-5 flex flex-center content-warp flex-start">
           <img class="headImg" src="../assets/major.jpg" alt="">
           <div class="title-warp show-lg">
-            <h2 class="news-title">未来生活方式</h2>
+            <h2 class="news-title">未来设计</h2>
             <p class="title-en">
-              Future Lifestyle
+              Future Design
             </p>
           </div>
         </div>
         <div class="col-5 flex content-warp text-warp flex-center">
           <div class="title-warp show-md show-sm">
-            <h2 class="news-title">未来生活方式</h2>
+            <h2 class="news-title">未来设计</h2>
             <p class="title-en">
-              Future Lifestyle
+              Future Design
             </p>
           </div>
-            <p>这是一个面向市场、面向新型互联网文化、面向基于新技术变革而形成的未来文化环境和生活方式，进行的实用型产品的设计课程方向的研究。该领域研究体现人文关怀，对接具体产品和功能设计，链接广大文化设计生活应用。</p>
+            <p>
+              “未来设计”在新型互联网文化、智能化社会及数字经济的背景下，基于对技术变革主导的未来文化形态和生产生活方式的探索，推动具有前瞻性与实践性的设计教学与研究。
+            </p>
           <router-link to="yanjiu1"><strong class="more">> 详情</strong></router-link>
 
         </div>
@@ -129,7 +165,8 @@
             </p>
           </div>
           <p>
-“艺术与科技”针对科技在艺术设计领域的应用，涉及AI人工智能设计应用、新媒体交互设计、认知学科等领域，专注于对未来潜在可能性的概念性设计，如展览展示中的机器学习、感知方式对于使用的影响等。          </p>
+            “艺术与科技”基于科技为艺术设计领域带来的全面拓展，对涉及新媒体交互设计、人工智能、用户体验、认知方式、社会文化研究等多个方面的前沿问题进行概念性探索与实践。
+          </p>
           <router-link to="yanjiu2"><strong class="more">> 详情</strong></router-link>
         </div>
         <div class="col-5 flex flex-center content-warp flex-start">
@@ -147,126 +184,26 @@
         <div class="col-5 flex flex-center content-warp flex-start">
           <img class="headImg" src="../assets/major2.jpg" alt="">
           <div class="title-warp show-lg">
-            <h2 class="news-title">未来设计教育</h2>
+            <h2 class="news-title">设计与教育</h2>
             <p class="title-en">
-              Future Design Education
+              Design and Education
             </p>
           </div>
         </div>
         <div class="col-5 flex content-warp text-warp flex-center">
           <div class="title-warp show-md show-sm">
-            <h2 class="news-title">未来设计教育</h2>
+            <h2 class="news-title">设计与教育</h2>
             <p class="title-en">
-              Future Design Education
+              Design and Education
             </p>
           </div>
           <p>
-“未来设计教育”是在教育学领域所作的创新研究，是为了培养未来设计所需的新型人才、探讨设计教育的未来发展方向，而准备的系统化、逻辑化，具有教学评估体系的教育研究。 </p>
+            “设计与教育”是在教育学领域所作的创新研究，旨在培养未来设计所需的新型人才、探讨设计教育的未来发展方向。该领域研究希望能真正了解世界艺术教育发展的趋势，世界主要设计教育体系的设计思路和逻辑、发展模式、课标体系、监察体系及体系建立的依据，最终发展出适合中国本土国情、适应未来信息化社会的新型教育体系及人才培养模式。
+          </p>
           <router-link to="yanjiu3"> <strong class="more">> 详情</strong></router-link>
         </div>
       </div>
 
-<!--      <div class="row ">-->
-<!--        <div class="col-6 title-warp">-->
-<!--          <div class="title ">-->
-<!--            <a href=""><h2 class="session-title"><span class="lefrborder"></span>研究方向</h2></a>-->
-<!--          </div>-->
-<!--          <div class="item-3 major-warp">-->
-<!--            <div class="item info">-->
-<!--              <img src="../assets/major.jpg" alt="">-->
-<!--              <h3>未来生活生产方式</h3>-->
-<!--              <p>-->
-<!--                面向基于新技术变革而形成的未来文化环境和生活方式的服装、家具、首饰、室内环境、交互设备等具体产品设计。-->
-<!--              </p>-->
-<!--            </div>-->
-<!--            <div class="item info">-->
-<!--              <img src="../assets/major2.jpg" alt="">-->
-<!--              <h3>未来艺术与科技</h3>-->
-<!--              <p>-->
-<!--                在科技和设计交叉领域的前沿概念性研究。 如在AI人工智能设计应用、新媒体交互设计等领域的实验性、概念性研究。-->
-<!--              </p>-->
-<!--            </div>-->
-<!--            <div class="item info">-->
-<!--              <img src="../assets/major3.jpg" alt="">-->
-<!--              <h3>未来艺术与设计基础教育</h3>-->
-<!--              <p>-->
-<!--                透彻了解国际教育体系、环境和发展趋势， 研发出适合中国本土国情的、面向未来文化和技术环境的设计教学的课程框架和教材。-->
-<!--              </p>-->
-<!--            </div>-->
-<!--          </div>-->
-<!--        </div>-->
-<!--        <div class="col-4 title-warp">-->
-<!--          <div class="title ">-->
-<!--            <a href=""><h2 class="session-title"><span class="lefrborder"></span>招生就业</h2></a>-->
-<!--          </div>-->
-<!--          <div class="">-->
-<!--            <div class="item-zs">-->
-<!--              <p>北京师范大学未来设计创新研究中心</p>-->
-<!--              <p>未来设计创新中心</p>-->
-<!--              <span>2020.06.11</span>-->
-<!--            </div>-->
-<!--            <div class="item-zs">-->
-<!--              <p>北京师范大学未来设计创新研究中心</p>-->
-<!--              <p>未来设计创新中心</p>-->
-<!--              <span>2020.06.11</span>-->
-<!--            </div>-->
-<!--            <div class="item-zs">-->
-<!--              <p>北京师范大学未来设计创新研究中心</p>-->
-<!--              <p>未来设计创新中心</p>-->
-<!--              <span>2020.06.11</span>-->
-<!--            </div>-->
-<!--            <div class="item-zs">-->
-<!--              <p>北京师范大学未来设计创新研究中心</p>-->
-<!--              <p>未来设计创新中心</p>-->
-<!--              <span>2020.06.11</span>-->
-<!--            </div>-->
-
-<!--          </div>-->
-<!--        </div>-->
-<!--      </div>-->
-
-<!--      <div class="row">-->
-<!--        <div class="col-6 title-warp">-->
-<!--          <div class="title ">-->
-<!--            <a href=""><h2 class="session-title"><span class="lefrborder"></span>合作交流</h2></a>-->
-<!--          </div>-->
-<!--          <div class="item-3">-->
-<!--            <div class="item">-->
-<!--              <img src="../assets/hezuo1.jpg" alt="">-->
-<!--            </div>-->
-<!--            <div class="item">-->
-<!--              <img src="../assets/hezuo2.jpg" alt="">-->
-<!--            </div>-->
-<!--            <div class="item">-->
-<!--              <img src="../assets/hezuo3.jpg" alt="">-->
-<!--            </div>-->
-<!--          </div>-->
-
-<!--        </div>-->
-<!--        <div class="col-4 title-warp">-->
-<!--          <div class="title ">-->
-<!--            <a href=""><h2 class="session-title"><span class="lefrborder"></span>下载中心</h2></a>-->
-<!--          </div>-->
-<!--          <div class="download">-->
-<!--            <a href="">-->
-<!--              北京师范大学未来设计研究中心资料-->
-<!--              <span>2020.06.11</span>-->
-<!--            </a>-->
-<!--            <a href="">-->
-<!--              北京师范大学未来设计研究中心资料-->
-<!--              <span>2020.06.11</span>-->
-<!--            </a>-->
-<!--            <a href="">-->
-<!--              北京师范大学未来设计研究中心资料-->
-<!--              <span>2020.06.11</span>-->
-<!--            </a>-->
-<!--            <a href="">-->
-<!--              北京师范大学未来设计研究中心资料-->
-<!--              <span>2020.06.11</span>-->
-<!--            </a>-->
-<!--          </div>-->
-<!--        </div>-->
-<!--      </div>-->
     </div>
     <footerbar></footerbar>
   </div>
@@ -385,7 +322,7 @@
     margin: 20px 0 0 0;padding: 0;
   }
   .tongzhi ul li {
-    height: 70px;
+    min-height: 70px;
     margin: 0 0 11px 0;
     overflow: hidden;
   }
@@ -474,7 +411,7 @@
   }
   .about-img{width: 160px;margin-right: 30px;}
   .news-banner{width: 100%;margin-top: 20px;display: block;}
-  .gonggao{margin-top: 20px;}
+  .gonggao{margin-top: 20px;justify-content: left;}
   .item{
     overflow: hidden;zoom: 1;
   }
@@ -525,7 +462,7 @@
   .download a span{float: right;color: #888;}
   .content-warp .more{position: absolute;right: 5px;bottom: 5px;font-size: 14px;cursor: pointer;}
   .title-warp .news-title{color: black;font-size: 20px;}
-  .news-list{padding:10px 20px;background: #eee;}
+  .news-list{padding:7px 20px;background: #eee;padding-bottom: 0;}
   .news-list .news-title{margin-top: 0;margin-bottom: 5px;}
   .title-en{font-size: 18px;font-family: '微软雅黑';font-weight: lighter;}
   .videoPoster{width: 100%;}

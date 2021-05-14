@@ -20,6 +20,12 @@ import about2 from '@/pages/about/about2'
 import about3 from '@/pages/about/about3'
 import about4 from '@/pages/about/about4'
 import zhaosheng from '@/pages/zhaosheng'
+import zhaopin from '@/pages/zhaopin'
+import Seedfund from '@/pages/seedfund'
+import gonggao1 from '@/pages/gonggao1'
+import gonggao from '@/pages/gonggao'
+import notice from '@/pages/notice'
+import noticeDetail from '@/pages/noticeDetail'
 //英语的部分
 import enIndex from '@/pages/en/index'
 import enAbout from '@/pages/en/about/about'
@@ -41,6 +47,8 @@ import enabout2 from '@/pages/en/about/about2'
 import enabout3 from '@/pages/en/about/about3'
 import enabout4 from '@/pages/en/about/about4'
 import enzhaosheng from '@/pages/en/zhaosheng'
+import enzhaopin from '@/pages/en/zhaopin'
+import enSeedfund from '@/pages/en/seedfund'
 
 Vue.use(Router)
 
@@ -48,14 +56,34 @@ export default new Router({
   // mode:'history',
   routes: [
     {
+      path: '/noticeDetail',
+      name: 'noticeDetail',
+      component: noticeDetail
+    },
+    {
+      path: '/notice',
+      name: 'notice',
+      component: notice
+    },
+    {
       path: '/',
       name: 'Index',
       component: Index
     },
     {
+      path: '/gonggao',
+      name: 'gonggao1',
+      component: gonggao
+    },
+    {
       path: '/zhaosheng',
       name: 'zhaosheng',
       component: zhaosheng
+    },
+    {
+      path: '/zhaopin',
+      name: 'zhaopin',
+      component: zhaopin
     },
     {
       path: '/teacherDetail',
@@ -147,6 +175,11 @@ export default new Router({
       name: 'detail',
       component: Detail
     },
+    {
+      path: '/seedfund',
+      name: 'seedfund',
+      component: Seedfund
+    },
     //英文部分
     {
       path: '/en',
@@ -157,6 +190,11 @@ export default new Router({
       path: '/enzhaosheng',
       name: 'enzhaosheng',
       component: enzhaosheng
+    },
+    {
+      path: '/enzhaopin',
+      name: 'enzhaopin',
+      component: enzhaopin
     },
     {
       path: '/enteacherDetail',
@@ -247,6 +285,11 @@ export default new Router({
       path: '/endetail',
       name: 'endetail',
       component: enDetail
+    },
+    {
+      path: '/enSeedfund',
+      name: 'enSeedfund',
+      component: enSeedfund
     },
 
 

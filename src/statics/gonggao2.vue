@@ -1,11 +1,5 @@
 <template>
   <div>
-    <mbnavbar></mbnavbar>
-    <zx-header></zx-header>
-    <mainnavbar></mainnavbar>
-    <div class="banner">
-      <img src="../assets/banner.jpg" alt="">
-    </div>
     <div class="container ">
       <div class=WordSection1>
 
@@ -152,7 +146,6 @@ mso-bidi-font-family:仿宋_GB2312;color:black;mso-font-kerning:0pt'>学校拟�
 
     </div>
 
-    <footerbar></footerbar>
   </div>
 </template>
 

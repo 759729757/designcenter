@@ -35,13 +35,13 @@
           <div class="subNav">
             <dl>
               <dd>
-                <router-link to="/yanjiu1">未来生活方式</router-link>
+                <router-link to="/yanjiu1">未来设计</router-link>
               </dd>
               <dd>
                 <router-link to="/yanjiu2">艺术与科技</router-link>
               </dd>
               <dd>
-                <router-link to="/yanjiu3">未来设计教育</router-link>
+                <router-link to="/yanjiu3">设计与教育</router-link>
               </dd>
             </dl>
           </div>
@@ -53,10 +53,14 @@
           <router-link :class="$route.path.indexOf('/news')>-1 ? 'active' : ''" to="/news">新闻动态</router-link>
         </li>
         <li>
+          <router-link :class="$route.path.indexOf('/zhaopin')>-1 ? 'active' : ''" to="/zhaopin">人才招聘</router-link>
+        </li>
+        <li>
           <router-link :class="$route.path.indexOf('/zhaosheng')>-1 ? 'active' : ''" to="/zhaosheng">招生信息</router-link>
         </li>
         <li>
-          <a onclick="alert('网站正在建设中')">种子基金</a>
+<!--          <a onclick="alert('网站正在建设中')">种子基金</a>-->
+          <router-link :class="$route.path.indexOf('/seedfund')>-1 ? 'active' : ''"  to="/seedfund">种子基金</router-link>
 
         </li>
 <!--        <li>-->
@@ -141,7 +145,7 @@
   }
 
   .nav ul li {
-    padding: 0px 30px;
+    padding: 0px 25px;
     height: 45px;
     text-align: center;
     line-height: 45px;

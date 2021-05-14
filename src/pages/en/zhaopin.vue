@@ -7,7 +7,7 @@
         <img src="../../assets/banner.jpg" alt="">
       </div>
       <div class="container ">
-        <zhaosheng></zhaosheng>
+        <zhaopin></zhaopin>
 
       </div>
 
@@ -21,11 +21,11 @@
   import mainnavbar from '../../encomponents/mainnavbar'
   import list from '../../encomponents/list'
   import mbnavbar from '../../encomponents/mbnavbar'
-  import zhaosheng from '../../statics/zhaosheng'
+  import zhaopin from '../../statics/enzhaopin'
   export default {
         name: "about",
       components:{
-        zxHeader,footerbar,mainnavbar,list,mbnavbar,zhaosheng
+        zxHeader,footerbar,mainnavbar,list,mbnavbar,zhaopin
       }
     }
 </script>

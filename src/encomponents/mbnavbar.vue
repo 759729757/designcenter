@@ -37,13 +37,13 @@
             <div class="subNav">
               <dl>
                 <dd>
-                  <router-link to="/enyanjiu1">Future Lifestyle</router-link>
+                  <router-link to="/enyanjiu1">Future Design</router-link>
                 </dd>
                 <dd>
                   <router-link to="/enyanjiu2">Art and Technology</router-link>
                 </dd>
                 <dd>
-                  <router-link to="/enyanjiu3">Future Design Education</router-link>
+                  <router-link to="/enyanjiu3">Design and Education</router-link>
                 </dd>
               </dl>
             </div>
@@ -55,10 +55,13 @@
             <router-link to="/ennews">News</router-link>
           </li>
           <li>
+            <router-link to="/enzhaopin">Job Recruitment</router-link>
+          </li>
+          <li>
             <router-link to="/enzhaosheng">Admission</router-link>
           </li>
-          <li onclick="alert('Coming soon')">
-            Seed Fund
+          <li >
+            <router-link to="/enseedfund">Seed Fund</router-link>
           </li>
         </ul>
       </div>

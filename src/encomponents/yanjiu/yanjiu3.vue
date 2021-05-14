@@ -6,14 +6,14 @@
       <div class="banner">
         <img src="../../assets/banner4.jpg" alt="">
       </div>
-<!--      <h2 class="section-title">学习经历</h2>-->
       <div class="container-sm">
-        <h2 class="news-title">Future Design Education</h2>
+        <h2 class="news-title">Design and Education</h2>
 
         <p>
-          facing future educational system development in design<br> <br>
-          “Future Design Education” is the innovative research in the field of art and design education. It combines systematic, logical and educational approaches and involves teaching evaluation system prepared for cultivating new talents in future design and exploring the future design education. It aims to truly understand the development trend of art education, the design ideas and logic of global major design educational systems, the development model, the curriculum system, the monitoring system and system establishment, and ultimately develop a new education system and talent training model adaptably to Chinese national conditions and the future information society.
-        </p>
+          <strong>A study of teaching and development in future design education
+          </strong><br><br>
+          “Design and Education” is the innovative research in art and design education, aiming at nurturing new talents required for future design and exploring future development of design education. The research in this field aims to grasp the development trend of global art education, to study the design ideas and logic, the development model, the curriculum system, the monitoring system and foundations of the world's major design education systems, and finally to develop a new education system and talent cultivation model adapted to China’s national conditions and future information society. It involves teaching methods, curriculum frameworks, textbook development, cognitive discipline education, etc. In addition, it adopts the advantages of Beijing Normal University in psychology, literature and education, highlights the characteristics of teacher-training institutions, creates a new direction of design interdisciplinary education, and explores the future development of design education.
+           </p>
 
       </div>
       <footerbar></footerbar>

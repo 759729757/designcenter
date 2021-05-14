@@ -7,13 +7,8 @@
       <img src="../assets/banner.jpg" alt="">
     </div>
     <div class="container ">
-      <news1 v-if="news == '1'"></news1>
-      <news2 v-if="news == '2'"></news2>
-      <news3 v-if="news == '3'"></news3>
-      <news4 v-if="news == '4'"></news4>
-      <news5 v-if="news == '5'"></news5>
-      <news6 v-if="news == '6'"></news6>
-      <news7 v-if="news == '7'"></news7>
+      <gonggao1 v-if="notice == '1'"></gonggao1>
+      <gonggao2 v-if="notice == '2'"></gonggao2>
 
     </div>
 
@@ -27,27 +22,22 @@
   import mainnavbar from '../components/mainnavbar'
   import list from '../components/list'
   import mbnavbar from '../components/mbnavbar'
-  import news1 from '../statics/news1'
-  import news2 from '../statics/news2'
-  import news3 from '../statics/news3'
-  import news4 from '../statics/news4'
-  import news5 from '../statics/news5'
-  import news6 from '../statics/news6'
-  import news7 from '../statics/news7'
+  import gonggao1 from '../statics/gonggao1'
+  import gonggao2 from '../statics/gonggao2'
 
   export default {
     name: "about",
     components: {
       zxHeader, footerbar,
-      news5,
-      mainnavbar, list, mbnavbar, news1, news2,news3,news4,news6,news7
+      mainnavbar, list, mbnavbar,
+      gonggao1, gonggao2
     },
     data() {
       return {}
     },
     computed: {
-      news() {
-        return (this.$route.query.news || 1)
+      notice() {
+        return (this.$route.query.notice || 1)
       }
     },
   }

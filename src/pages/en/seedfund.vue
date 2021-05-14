@@ -4,7 +4,7 @@
     <zx-header></zx-header>
     <mainnavbar></mainnavbar>
     <div class="banner">
-      <img src="../assets/banner.jpg" alt="">
+      <img src="../../assets/banner.jpg" alt="">
     </div>
     <div class="container ">
       <seed></seed>
@@ -16,12 +16,12 @@
 </template>
 
 <script>
-  import zxHeader from '../components/header'
-  import footerbar from '../components/footerbar'
-  import mainnavbar from '../components/mainnavbar'
-  import list from '../components/list'
-  import mbnavbar from '../components/mbnavbar'
-  import seed from '../statics/seed'
+  import zxHeader from '../../encomponents/header'
+  import footerbar from '../../encomponents/footerbar'
+  import mainnavbar from '../../encomponents/mainnavbar'
+  import list from '../../encomponents/list'
+  import mbnavbar from '../../encomponents/mbnavbar'
+  import seed from '../../statics/enseed2'
   export default {
     name: "seedfund",
     components:{

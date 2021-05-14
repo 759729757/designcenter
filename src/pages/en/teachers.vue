@@ -128,7 +128,7 @@
           <div class="flex col-5 flex-start">
             <img class="head-img" src="../../assets/yejingtian.jpg" alt="">
             <div class="flex-col flex-center">
-              <div><h2 class="name">YE JinTian</h2> </div>
+              <div><h2 class="name">Tim Yip</h2> </div>
               <p>Distinguished Professor</p>
             </div>
           </div>

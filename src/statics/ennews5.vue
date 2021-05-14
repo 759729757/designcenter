@@ -1,40 +1,43 @@
 <template>
   <div>
     <h2 class="rich_media_title" id="activity-name">
-      FDC Experts Engaged in Academic Activities in Zhuhai <br>
-      <small>Boosting the Development of Design Education in the Greater Bay Area</small>
-
+      Relocation Plan of 2021 Fine Arts (Art Design) Program of School of Arts and Communication, <br> Beijing Normal University
     </h2>
     <div>
       <p>
-        During December 3-8, Beijing Normal University Future Design Center Academic Committee experts participated in a series of academic activities in Zhuhai. Tan Ping, Wang Min, Xu Ping, Gao Peng and Tony Brown attended the fourth committee meeting of this academic year to discuss the construction of FDC and FDS (in preparation). Xu Ping, Gao Peng and Tony Brown also gave a lecture on “Design for the Future” and were invited to the 2020 Zhuhai International Design Week series activities.
+        <strong>
+          Beijing Normal University Future Design Center Hosts Tea Space Design Project in the China Pavilion of 2020 Dubai Expo
+        </strong>
         <br><br>
-        <strong>FDC expert lecture: Design for the Future</strong>
+        On October 15, 2020, the collaborative agreement of a large-scale project "China Pavilion of 2020 Dubai Expo - Future Living Space" was signed by Gao Peng, Director of BNU Future Design Center (FDC) and Xu Hao, Secretary-General of 2020 Dubai Expo China Pavilion Global Promotion Committee of Chinese Tea Culture (Tea Industry) during the FDC press conference. FDC will undertake the design of the future living space in the China Pavilion of 2020 Dubai Expo.
         <br><br>
-        On December 6, the 43rd lecture of Jingshi Liyun Forum “Design of the Future” was held in B101 of Lijiao Building as a part of the BNU Valley Art Festival. The lecture was given by BNU Distinguished Professors Xu Ping and Tony Brown, as well as the Director of FDC, Gao Peng. Via online and offline methods, this lecture attracted more than 120 students on site and over 2,000 online.
-        <br><br>
-        <img src="../assets/news/en4-1.jpg" alt="">
+        <img src="../assets/news/en8-1.jpg" alt="">
         <br>
-        <img src="../assets/news/en4-2.jpg" alt="">
+        Gao Peng, Director of Future Design Centre and Xu Hao, Secretary-General of 2020 Dubai Expo China Pavilion Global Promotion Committee of Chinese Tea Culture (Tea Industry), signing the agreement
+        <img src="../assets/news/en8-2.jpg" alt="">
         <br>
-        <img style="width: 150px;" src="../assets/news/en4-21.jpg" alt="">
-        <br><span>(Scan the code for the lecture video)</span>
+        From left to right: Sun Hongpei, Vice Chairman of BNU University Council; Hui Xuan, Director-General of 2020 Dubai Expo China Pavilion and Executive Director of 2020 Dubai Expo China Pavilion Global Promotion Committee of Chinese Tea Culture (Tea Industry).
         <br><br>
-        <strong>FDC experts attended the fourth expert committee</strong>
+        On October 23, 2020, BNU Future Design Centre was appointed as the executive unit and Gao Peng was appointed as the Vice Chairman of 2020 Dubai Expo China Pavilion Global Promotion Committee of Chinese Tea Culture (Tea Industry) at the launching ceremony and the first committee meeting of 2020 Dubai Expo China Pavilion Global Promotion Committee of Chinese Tea Culture (Tea Industry).
         <br><br>
-        The fourth FDC academic committee meeting of this academic year was held on December 7-8. Tan Ping, Chair of the Academic Committee and Gao Peng, Secretary General of the Academic Committee, together with other members - Wang Min, Xu Ping, Tony Brown, Li Qi and Miriam Mirolla attended the meeting.
+        <img src="../assets/news/en8-3.jpg" alt="">
+        <br>
+        Group photo of the launching ceremony of 2020 Dubai Expo China Pavilion Global Promotion Committee of Chinese Tea Culture (Tea Industry)
         <br><br>
-        <img src="../assets/news/en4-3.jpg" alt="">
+        <img src="../assets/news/en8-4.png" alt="">
+        <br>
+        Accreditation Certificate of Beijing Normal University Future Design Center accredited as the strategic cooperation unit of 2020 Dubai Expo China Pavilion Global Promotion Committee of Chinese Tea Culture (Tea Industry)
         <br><br>
-        During the meeting, the philosophy, values, core competitiveness, objectives as well as the three research directions of Future Design School (in preparation) were discussed. FDC experts also reached a consensus on the curriculum framework, faculty recruitment criteria and interior design of the teaching space.
+        Currently, FDC has completed a preliminary concept plan for Tea Space Design of 2020 Dubai Expo China Pavilion. The center has twice reported to the committee and further polished the design based on the committee's feedback. Themed on “A Leaf of One Thousand Years”, the project adopted a piece of tea leaf to show the world the oriental worldview - “To see the world in a wild flower, and a bodhi in a piece of leaf”. By using contemporary design techniques, a Chinese tea room is well presented with artistic conception. The body part of this tea room is located in an outdoor open space connected to a sky corridor, creating the natural atmosphere of a garden tea room.
         <br><br>
-        <strong>FDC experts engaged in Zhuhai International Design Week</strong>
+        <img src="../assets/news/en8-5.png" alt="">
+        <br>
+        <img src="../assets/news/en8-6.jpg" alt="">
+        <br>
+        The design rendering displayed at the launching ceremony of the 2020 Dubai Expo China Pavilion Global Promotion Committee of Chinese Tea Culture (Tea Industry)
         <br><br>
-        On December 4, 2020 Zhuhai International Design Week and Beijing International Design Week Zhuhai Station was grandly opened at Zhuhai International Convention and Exhibition Center. FDC director Gao Peng and academic committee expert Xu Ping were invited by the organizing committee of 2020 Zhuhai International Design Week to participate in the Zhuhai International Design Week Dean's Dialogue and parallel forum activities respectively. Director Gao Peng and Academic Committee expert Tony Brown were invited to be the judges and award presenters of the Zhuhai Design Award - Greater Bay Area Design Power.
-        <br><br>
-        From the kick-off ceremony of the design tour, to the press conference of the design week, to the main activities of the design week, the Future Design Center FDC of Beihang University, as the academic guidance unit, guided the relevant academic work throughout the whole process, and joined hands with Beijing and Zhuhai International Design Week to build an international platform integrating communication, promotion, exhibition and education, and helped the development of the design industry in the Greater Bay Area.
-        <br><br>
-        <img src="../assets/news/en1.jpg" alt="">
+        In this September, a real-size Tea Space of the 2020 Dubai Expo China Pavilion will be completed at BNU Zhuhai for the refinement of the design at the Dubai Expo and be open to the public who cannot travel to Expo Dubai. In the future, this space will be continuously open to the students and faculty of Future Design School at BNU Zhuhai for educational purpose. By the end of September, this space will be replicated in 2020 Dubai Expo China Pavilion, spreading the traditional Chinese tea culture.
+        <br><br><br><br>
 
 
       </p>

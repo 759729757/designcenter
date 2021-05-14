@@ -8,13 +8,12 @@
       </div>
 <!--      <h2 class="section-title">学习经历</h2>-->
       <div class="container-sm">
-        <h2 class="news-title">Future Lifestyle</h2>
-
+        <h2 class="news-title">Future Design</h2>
         <p>
-          practical design for new cultural forms<br> <br>
-          This research direction is about practical product design oriented to the market, to the new Internet culture, and to the future cultural environment and lifestyles formed with new technological innovations. The research in this field embodies humanistic concern, connects with specific product and functional design, and links with the application of cultural design life, including information communication and visualization design, space and environment design, fashion and lifestyle design, and East-West traditional handicraft design.
+          <strong>Comprehensive Design for Future Production, Lifestyle and Ideology</strong>
           <br> <br>
-          Research on “Future Lifestyle” aims to equip students with the ability to analyze and predict social development trends, grasp advanced design concepts, methods and tools, understand institution and market operation as well as product development process, and ultimately enables students to become creators and leaders of future lifestyles.
+          In the context of the new Internet culture, intelligent society and digital economy, "Future Design" promotes forward-looking and practical design teaching and research based on the exploration of future cultural forms, production and lifestyle formed with new technological innovations. The research in this field focuses on humanism and technology ethics and bridges design aesthetics and intelligent manufacturing, covering cultural life and production practice. The teaching includes courses in industrial design, information communication and visualization design, fashion and jewelry design, architecture and environmental design, fashion life design, and East-West traditional handicraft design. Research on “Future Design” equips students with the ability to analyze and predict social development trends, to grasp advanced design concepts, methods and tools, and to understand institution and market operation as well as product development process, and ultimately enables students to become creators and leaders of future social ideology.
+
         </p>
 
       </div>

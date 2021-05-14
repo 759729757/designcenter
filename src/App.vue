@@ -82,6 +82,9 @@
 
   .mb-only,.show-md,.show-sm{display: none;}
   .show-lg{display: block;}
+  .text-small{
+    font-size: small;
+  }
   @media (max-width: 1024px) {
     .container{width: 96%;margin: 0 2%;}
   }
